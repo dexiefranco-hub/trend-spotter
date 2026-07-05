@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Trend Radar — Weekly Cultural Watch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F4F6F9; --card:#FFFFFF; --ink:#141A26; --muted:#5B6472;
+    --emerging:#7C3AED; --rising:#0E9F6E; --peaking:#E8890C;
+    --line:#E3E7EE; --radius:14px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;line-height:1.45;padding:20px 16px 60px}
+  .wrap{max-width:1080px;margin:0 auto}
+
+  header{margin-bottom:18px}
+  .eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(26px,5vw,38px);letter-spacing:-.02em;margin-top:4px}
+  .updated{color:var(--muted);font-size:14px;margin-top:6px;font-weight:500}
+  .nav{margin-top:10px;font-size:14px}
+  .nav a{color:var(--rising);font-weight:600;text-decoration:none}
+  .nav a:hover{text-decoration:underline}
+
+  .summary{background:var(--ink);color:#F2F5FA;border-radius:var(--radius);padding:18px 20px;font-size:15px;margin:16px 0 14px}
+  .summary b{color:#FFD37A}
+  .watch{background:#FFF7E6;border:1.5px solid #F1C56B;border-radius:var(--radius);padding:14px 18px;font-size:14.5px;margin-bottom:30px}
+  .watch b{color:#8A5A00}
+
+  h2.stage{font-family:'Space Grotesk',sans-serif;font-size:16px;letter-spacing:.05em;text-transform:uppercase;margin:26px 0 4px;display:flex;align-items:center;gap:8px}
+  .stage-sub{font-size:13px;color:var(--muted);margin-bottom:12px}
+  .dot{width:11px;height:11px;border-radius:50%;display:inline-block}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;display:flex;flex-direction:column;gap:8px;border-top:4px solid var(--line)}
+  .card.emerging{border-top-color:var(--emerging)}
+  .card.rising{border-top-color:var(--rising)}
+  .card.peaking{border-top-color:var(--peaking)}
+  .card-top{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+  .t-name{font-weight:700;font-size:16.5px;color:var(--ink);text-decoration:none}
+  .t-name:hover{text-decoration:underline}
+  .t-cat{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+  .t-metric{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:13px;white-space:nowrap}
+  .card.emerging .t-metric{color:var(--emerging)}
+  .card.rising .t-metric{color:var(--rising)}
+  .card.peaking .t-metric{color:var(--peaking)}
+  .t-signal{font-size:13.5px;color:var(--muted)}
+  .bar{height:5px;background:var(--line);border-radius:99px;overflow:hidden}
+  .bar>span{display:block;height:100%;border-radius:99px}
+  .ideas{margin-top:4px;background:#F7F9FC;border-radius:10px;padding:10px 12px}
+  .ideas h4{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+  .ideas ul{list-style:none}
+  .ideas li{font-size:13px;padding:3px 0;font-weight:500}
+  .ideas li::before{content:"→ ";color:var(--muted)}
+
+  .empty{background:var(--card);border:1px dashed var(--line);border-radius:var(--radius);padding:40px 20px;text-align:center;color:var(--muted)}
+  .empty b{color:var(--ink)}
+  footer{margin-top:36px;color:var(--muted);font-size:12.5px;text-align:center}
+  @media(max-width:640px){body{padding:14px 10px 50px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Agent 2 · Runs Mondays 6:30 AM</div>
+    <h1>Social Trend Radar</h1>
+    <div class="updated" id="updated">Loading latest run…</div>
+    <div class="nav"><a href="index.html">← Product Trend Spotter</a></div>
+  </header>
+
+  <div id="content"></div>
+
+  <footer>Emerging = act early · Rising = act now · Peaking = window closing. Product ideas feed Agent 1's watchlist.</footer>
+</div>
+
+<script>
+const STAGES = {
+  emerging:{label:'Emerging', sub:'Tiny but accelerating — most people haven\u2019t heard of these yet. Highest upside.', color:'var(--emerging)'},
+  rising:{label:'Rising', sub:'Growing fast, early adopters all in. Act on these now.', color:'var(--rising)'},
+  peaking:{label:'Peaking', sub:'Mainstream — window for early advantage is closing.', color:'var(--peaking)'}
+};
+
+function esc(s){const d=document.createElement('div');d.textContent=s??'';return d.innerHTML;}
+function link(name){return `https://www.google.com/search?q=${encodeURIComponent(name)}+trend`;}
+
+async function load(){
+  const box = document.getElementById('content');
+  try{
+    const res = await fetch('social.json?v=' + Date.now());
+    if(!res.ok) throw new Error('no data yet');
+    const d = await res.json();
+
+    document.getElementById('updated').textContent = d.week_range ? 'Week of ' + d.week_range : '';
+
+    let html = '';
+    if(d.summary) html += `<div class="summary"><b>This week:</b> ${esc(d.summary)}</div>`;
+    if(d.watchlist_note) html += `<div class="watch"><b>👁 Watch closest:</b> ${esc(d.watchlist_note)}</div>`;
+
+    for(const stage of ['emerging','rising','peaking']){
+      const items = (d.trends||[]).filter(t=>t.stage===stage).sort((a,b)=>(b.momentum||0)-(a.momentum||0));
+      if(!items.length) continue;
+      const s = STAGES[stage];
+      html += `<h2 class="stage"><span class="dot" style="background:${s.color}"></span>${s.label}</h2>
+               <div class="stage-sub">${s.sub}</div><div class="grid">`;
+      for(const t of items){
+        const m = Math.max(1,Math.min(100,t.momentum||50));
+        const ideas = (t.product_ideas||[]).map(i=>`<li>${esc(i)}</li>`).join('');
+        html += `<div class="card ${stage}">
+          <div class="card-top">
+            <div>
+              <a class="t-name" href="${link(t.name)}" target="_blank" rel="noopener">${esc(t.name)} ↗</a>
+              <div class="t-cat">${esc(t.category||'')}</div>
+            </div>
+            <span class="t-metric">${esc(t.metric||m)}</span>
+          </div>
+          <div class="t-signal">${esc(t.signal||'')}</div>
+          <div class="bar"><span style="width:${m}%;background:${s.color}"></span></div>
+          ${ideas?`<div class="ideas"><h4>Product opportunities</h4><ul>${ideas}</ul></div>`:''}
+        </div>`;
+      }
+      html += `</div>`;
+    }
+    box.innerHTML = html;
+  }catch(e){
+    document.getElementById('updated').textContent = '';
+    box.innerHTML = `<div class="empty"><b>No data yet.</b><br><br>Go to Actions → <b>Weekly Social Trend Radar</b> → <b>Run workflow</b>, then refresh here after it finishes.</div>`;
+  }
+}
+load();
+</script>
+</body>
+</html>
