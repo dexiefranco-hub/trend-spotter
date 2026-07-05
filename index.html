@@ -104,8 +104,8 @@ function esc(s){const d=document.createElement('div');d.textContent=s??'';return
 function linkFor(name, panel){
   const q = encodeURIComponent(name);
   if(panel === 'amazon') return `https://www.amazon.com/s?k=${q}`;
-  if(panel === 'tiktok') return `https://www.tiktok.com/search?q=${q}`;
-  return `https://www.google.com/search?q=${q}`;   // always-works fallback for trends
+  if(panel === 'tiktok') return `https://www.google.com/search?q=${q}+TikTok`;  // TikTok blocks logged-out visits
+  return `https://www.google.com/search?q=${q}`;
 }
 
 function norm(s){return (s||'').toLowerCase().replace(/[^a-z0-9 ]/g,'').trim();}
