@@ -30,12 +30,14 @@ PANEL 1 — AMAZON: Products currently rising on Amazon (Movers & Shakers style
 signals, best seller climbers). Focus on consumer products a dropshipper could
 sell (gadgets, home, beauty, fitness, pets). Find 6-8 items.
 
-PANEL 2 — GOOGLE TRENDS: Search terms and product-related topics rising in the
-US right now. Find 6-8 rising terms relevant to consumer products.
+PANEL 2 — GOOGLE TRENDS: Product search terms rising in the US right now —
+strictly things people want to BUY (e.g. "portable neck fan", "walking pad").
+Exclude cultural topics, lifestyle movements, events, or celebrity names;
+those are handled by a separate agent. Find 6-8 rising product searches.
 
-PANEL 3 — TIKTOK: Trending/breakout hashtags and products getting strong video
-traction on TikTok right now (TikTok Creative Center style signals, viral
-product buzz). Find 6-8 items.
+PANEL 3 — TIKTOK: Specific PRODUCTS getting strong buying traction on TikTok
+right now — items being tagged, demoed, and sold in videos (TikTok Shop style
+signals). Strictly products, not hashtags or cultural trends. Find 6-8 items.
 
 Then create PANEL 4 — ALIGNED SIGNALS: any product or trend that appears in
 TWO OR MORE of the panels above. These are the strongest buy signals.
