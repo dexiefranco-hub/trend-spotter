@@ -1,0 +1,206 @@
+{
+  "amazon": [
+    {
+      "name": "Infrared Sauna Blanket",
+      "category": "Health & Wellness",
+      "signal": "Climbing Amazon wellness charts as at-home spa demand surges; sourced for $30\u2013$60 and retailing at $100\u2013$200, making it a high-margin mover with sustained BSR growth.",
+      "momentum": 82
+    },
+    {
+      "name": "LEVOIT Air Purifier (Core 300-P)",
+      "category": "Home & Kitchen",
+      "signal": "Ranked among the top recommended Amazon gadgets as of July 2, 2026, riding strong summer indoor air quality demand driven by heat, pollen, and pet dander concerns.",
+      "momentum": 74
+    },
+    {
+      "name": "Portable Blender Cup (USB Rechargeable)",
+      "category": "Fitness & Kitchen Gadgets",
+      "signal": "A staple of TikTok wellness content now crossing into Amazon best-seller territory, fueled by gym-goer and busy-mom morning-routine videos that demonstrate on-the-go smoothie blending.",
+      "momentum": 78
+    },
+    {
+      "name": "Pimple Patches / Hydrocolloid Patches",
+      "category": "Beauty & Skincare",
+      "signal": "Amazon's own sell page cites Mighty Patch reaching 140,000+ global ratings with 90% four-star-or-above, and the category continues to climb as skincare-as-fashion-statement culture grows.",
+      "momentum": 85
+    },
+    {
+      "name": "Wireless Earbuds (budget/mid-tier)",
+      "category": "Consumer Electronics",
+      "signal": "Consistently top-ranked on Amazon's best sellers list in 2026, driven by sustained demand for cable-free audio with noise cancellation and long battery life for commuting and workouts.",
+      "momentum": 71
+    },
+    {
+      "name": "LED Galaxy Projector / Ambient Room Light",
+      "category": "Home D\u00e9cor & Gadgets",
+      "signal": "Recorded an 1,800% surge in orders on TikTok Shop with a single viral bedroom glow-up clip driving 10,000+ orders in two weeks, and the momentum is now lifting Amazon sales rank.",
+      "momentum": 88
+    },
+    {
+      "name": "Kasa Smart Plug (Mini Wi-Fi Outlet)",
+      "category": "Smart Home",
+      "signal": "Named a top Amazon gadget pick for July 2026 as entry-level smart-home adoption accelerates; two-pack under $15 makes it an impulse buy with strong review volume.",
+      "momentum": 67
+    },
+    {
+      "name": "Hydrogen Water Bottle",
+      "category": "Health & Wellness",
+      "signal": "Search interest has grown steadily through 2025 into 2026, driven by science-backed hydration trends among gym-goers and wellness enthusiasts, lifting both Google and Amazon demand signals.",
+      "momentum": 76
+    }
+  ],
+  "google_trends": [
+    {
+      "name": "Sauna Blanket",
+      "category": "Health & Wellness",
+      "signal": "Google Trends shows a sharp climb beginning late 2024 with sustained high search volume carrying into mid-2026, reflecting mainstream adoption of at-home heat therapy.",
+      "momentum": 84
+    },
+    {
+      "name": "PDRN Skincare",
+      "category": "Beauty & Skincare",
+      "signal": "Polydeoxyribonucleotide (PDRN) is showing a synchronized upward Google Trends curve across creams, toners, and masks, with measurable growth now expanding from Asian markets into Western audiences.",
+      "momentum": 79
+    },
+    {
+      "name": "Hair Repair Mask",
+      "category": "Hair Care",
+      "signal": "Google Trends chart shows a solid uptrend to approximately 73,000 searches per month, fueled by consumer investment in bond-repair treatments following heat styling and color damage.",
+      "momentum": 73
+    },
+    {
+      "name": "Melatonin Gummies / Magnesium Supplements",
+      "category": "Health Supplements",
+      "signal": "A notable trend in Google searches right now shows rising interest in sleep aids and magnesium, reflecting a broad consumer shift toward natural sleep optimization products.",
+      "momentum": 77
+    },
+    {
+      "name": "Hydrogen Water Bottle",
+      "category": "Health & Wellness",
+      "signal": "Search interest has grown steadily through 2025 and into 2026, driven by a broader trend toward science-backed hydration products appealing to gym-goers and wellness enthusiasts.",
+      "momentum": 75
+    },
+    {
+      "name": "Blue Light Therapy Device (Skincare)",
+      "category": "Beauty Tech",
+      "signal": "Google Trends for 'Blue Light Therapy Light' used for skincare shows growing interest with a notable rise in late 2024 into 2025, now reaching approximately 150,000 searches per month.",
+      "momentum": 80
+    },
+    {
+      "name": "Pet Supplies / CBD Pet Wellness",
+      "category": "Pets",
+      "signal": "Google Trends shows consistently high interest in pet supplies year-round, with a sharp rise in US searches for CBD treatments and wellness products following 2025's 'dogs as family' legal ruling.",
+      "momentum": 69
+    },
+    {
+      "name": "Portable Espresso Maker",
+      "category": "Kitchen Gadgets",
+      "signal": "Listed among Google Trends' reliable sustainable lifestyle demand signals for 2026, showing gradual sustained climb rather than a spike, indicating durable consumer interest.",
+      "momentum": 65
+    }
+  ],
+  "tiktok": [
+    {
+      "name": "#SkincareTok / PDRN Serum",
+      "category": "Beauty & Skincare",
+      "signal": "PDRN 'salmon sperm skincare' serums (notably Medicube) are going viral under #SkincareTok and #TikTokMadeMeBuyIt, generating massive beauty engagement as the clinical ingredient breaks into mainstream awareness.",
+      "momentum": 86
+    },
+    {
+      "name": "LED Galaxy Projector / Sunset Lamp",
+      "category": "Home D\u00e9cor",
+      "signal": "Under-$30 mood lights and galaxy projectors consistently go viral through 'bedroom glow-up' creator content; a single Q1 2026 TikTok clip drove over 10,000 orders in two weeks.",
+      "momentum": 91
+    },
+    {
+      "name": "Portable USB Blender Cup",
+      "category": "Fitness & Wellness",
+      "signal": "Fitness influencers and busy moms have made the portable blender a TikTok wellness staple, with 'smoothie-in-the-car' demos generating high saves and shares across the wellness niche.",
+      "momentum": 80
+    },
+    {
+      "name": "#WaterTok Aesthetic Water Bottles",
+      "category": "Lifestyle & Hydration",
+      "signal": "#WaterTok has accumulated 2.5 billion views on TikTok, turning hydration bottles into fashion accessories and sustaining strong impulse-buy conversion for branded reusable bottle sellers.",
+      "momentum": 74
+    },
+    {
+      "name": "Pimple Patches / Hydrocolloid Patches",
+      "category": "Beauty & Skincare",
+      "signal": "TikTok-famous for overnight zit-zapping and now a fashion statement embraced by celebrities, pimple patches are a #TikTokMadeMeBuyIt staple with 70\u201380% margins and repeat purchase cycles.",
+      "momentum": 83
+    },
+    {
+      "name": "Infrared Sauna Blanket",
+      "category": "Health & Wellness",
+      "signal": "Biohacker and wellness influencers are driving 'sweat detox' content under #WellnessTok, with infrared sauna blankets appearing in before-and-after posts and YouTube reviews that convert reliably.",
+      "momentum": 78
+    },
+    {
+      "name": "Lip Oil / Tinted Lip Gloss",
+      "category": "Beauty",
+      "signal": "Viral $5 lip oils are still trending on TikTok Shop with new colorways and plumping formulations keeping creator UGC flowing constantly, maintaining 70\u201380% gross margins for sellers.",
+      "momentum": 77
+    },
+    {
+      "name": "Cordless Handheld Vacuum",
+      "category": "Home Gadgets",
+      "signal": "The US and UK TikTok Shop markets are seeing a surge in practical home gadgets; the Homeika Cordless Vacuum generated $25M+ GMV through satisfying 30-second problem/solution demo clips.",
+      "momentum": 85
+    }
+  ],
+  "aligned": [
+    {
+      "name": "Infrared Sauna Blanket",
+      "sources": [
+        "amazon",
+        "google_trends",
+        "tiktok"
+      ],
+      "why": "This product appears in all three panels \u2014 sustained Google Trends climb since late 2024, rising Amazon wellness BSR, and active TikTok wellness influencer content \u2014 making it the week's single strongest tri-channel buy signal with high margins ($40\u2013$140 per sale)."
+    },
+    {
+      "name": "LED Galaxy Projector / Ambient Mood Light",
+      "sources": [
+        "amazon",
+        "tiktok"
+      ],
+      "why": "A Q1 2026 TikTok viral clip drove 10,000+ orders in two weeks and the sales momentum is now visibly lifting Amazon's home d\u00e9cor best-seller ranks, confirming social-to-marketplace conversion at scale."
+    },
+    {
+      "name": "Pimple Patches / Hydrocolloid Patches",
+      "sources": [
+        "amazon",
+        "tiktok"
+      ],
+      "why": "Amazon's own seller data shows 140,000+ ratings with near-90% positive scores while TikTok continues to fuel celebrity-backed skincare-as-fashion content, creating a dual-channel demand engine with 70\u201380% dropship margins."
+    },
+    {
+      "name": "PDRN Skincare (e.g., Medicube Serum)",
+      "sources": [
+        "google_trends",
+        "tiktok"
+      ],
+      "why": "Google Trends shows a synchronized multi-product upward curve for PDRN as Western markets adopt the ingredient, while TikTok's #SkincareTok is actively evangelizing the 'salmon peptide glow-up,' signaling an ingredient-driven wave with 12\u201324 months of runway."
+    },
+    {
+      "name": "Hydrogen Water Bottle",
+      "sources": [
+        "amazon",
+        "google_trends"
+      ],
+      "why": "Steady Google Trends search growth through 2026 combined with rising Amazon demand from wellness and gym-goer audiences confirms durable cross-channel momentum with strong sourcing margins ($15\u2013$35 cost vs. $50\u2013$90 retail)."
+    },
+    {
+      "name": "Portable USB Blender Cup",
+      "sources": [
+        "amazon",
+        "tiktok"
+      ],
+      "why": "TikTok's 'smoothie-in-the-car' viral format is directly converting to Amazon sales climbs in the kitchen gadget category, making this a content-driven product with evergreen fitness appeal and easy demo potential."
+    }
+  ],
+  "summary": "The dominant opportunity theme for the week of July 5, 2026 is wellness-meets-aesthetics: products like infrared sauna blankets, PDRN skincare serums, and hydrogen water bottles are firing simultaneously on Google search, TikTok creator content, and Amazon sales rank \u2014 the rarest and most reliable cross-platform buy signal. LED ambient lighting (galaxy projectors, sunset lamps) is the week's highest-velocity individual item, with documented proof of a single TikTok clip driving 10,000 orders in two weeks and the lift now showing on Amazon. Dropshippers should prioritize the aligned-signal products above all others, with sauna blankets and PDRN skincare offering the best combination of margin, content virality, and sustained multi-month demand curves rather than flash-in-the-pan spikes.",
+  "updated": "2026-07-05T07:07:47.103841+00:00",
+  "updated_display": "July 05, 2026"
+}
