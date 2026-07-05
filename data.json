@@ -2,206 +2,232 @@
   "amazon": [
     {
       "name": "Portable Neck Fan",
-      "category": "Cooling / Gadgets",
-      "signal": "Surging Amazon sales this week as a heat wave hits the US, with shoppers snapping up hands-free wearable cooling devices under $30 ahead of July 4th weekend.",
-      "momentum": 91
+      "category": "Home / Summer Cooling",
+      "signal": "Summer heat wave is driving explosive Amazon sales of hands-free personal cooling devices, with multiple models featured in Amazon's 4th of July Independence Day sale this week.",
+      "metric": "Amazon air conditioner sales up 248% over 30 days; portable cooling category surging site-wide per CNN Underscored July 4th 2026 coverage",
+      "momentum": 92
     },
     {
-      "name": "Shark ChillPill Personal Cooling System",
-      "category": "Cooling / Home",
-      "signal": "Featured in Amazon's live July 4th sale as one of the first-ever discount events for this portable fan-plus-cooling-mist combo, driving a sharp rank spike.",
+      "name": "Apple AirTag 2",
+      "category": "Electronics / Gadgets",
+      "signal": "The second-generation AirTag is entering the top 5 electronics rankings on Amazon and received its first-ever discount during the July 4th sale window.",
+      "metric": "AirTag 4-pack #10 on electronics best seller list; 2nd Gen AirTags entering top 5 ranking",
       "momentum": 85
     },
     {
-      "name": "Tabletop Misting Fan (Dreo)",
-      "category": "Home / Cooling",
-      "signal": "Dropped to its lowest price ever during Amazon's July 4th sale week, triggering a rapid sales rank climb across the home-cooling subcategory.",
-      "momentum": 80
+      "name": "Shark ChillPill Personal Cooling System",
+      "category": "Home / Summer Cooling",
+      "signal": "Viral cooling device combining a portable fan, cooling plate, and misting feature is one of the most prominently featured products across Amazon's 4th of July 2026 deals coverage.",
+      "metric": "Featured as a headlining product in Amazon July 4th sale at Today.com (July 3, 2026); up to $50 off this week",
+      "momentum": 88
     },
     {
-      "name": "Insulated Tote / Soft Cooler Bag (Yeti-style)",
-      "category": "Outdoor / Summer Lifestyle",
-      "signal": "Google Trends spike for insulated tote bags in early 2026 is converting into Amazon purchase volume as the summer beach and BBQ season peaks this week.",
-      "momentum": 78
-    },
-    {
-      "name": "Automatic Touch-Free Soap Dispenser",
-      "category": "Home / Kitchen Gadgets",
-      "signal": "Viral #TikTokMadeMeBuyIt content is cross-posting to Amazon searches; the hygiene-gadget category is climbing Movers & Shakers in Home & Kitchen.",
-      "momentum": 74
-    },
-    {
-      "name": "LED Face Mask (Red/Blue Light Therapy)",
-      "category": "Beauty / Skincare Tech",
-      "signal": "Sustained TikTok GRWM and skincare-routine content is converting strongly on Amazon Beauty Movers & Shakers, with the blue-light skincare category peaking in mid-2026.",
+      "name": "Smart Body Composition Scale (RENPHO / Withings)",
+      "category": "Fitness / Health",
+      "signal": "Bluetooth-syncing smart scales tracking weight and body metrics are climbing Amazon best seller charts as summer fitness season peaks.",
+      "metric": "Cited as a top Amazon gadget pick as of July 3, 2026 by The Gadgeteer",
       "momentum": 72
     },
     {
-      "name": "Smart Ring (Health / Fitness Tracker)",
-      "category": "Fitness / Wearables",
-      "signal": "Active #TikTokMadeMeBuyIt and #AmazonFinds tagging for 2026 smart rings is pushing this wearable health tracker up Amazon's Electronics movers chart this week.",
+      "name": "Anker Power Bank (10,000mAh 30W)",
+      "category": "Electronics / Gadgets",
+      "signal": "Portable power banks with built-in USB-C cables are a top-ranked Amazon gadget pick this week ahead of summer travel and outdoor events.",
+      "metric": "Named Best Power Bank in The Gadgeteer's July 3, 2026 Amazon gadgets roundup",
       "momentum": 70
     },
     {
-      "name": "Portable Mini Projector",
-      "category": "Home Entertainment / Gadgets",
-      "signal": "Viral TikTok bedroom and outdoor movie content is driving a surge in Amazon searches and rank gains for wireless rechargeable mini projectors during the holiday weekend.",
-      "momentum": 67
+      "name": "LED Face Mask (Light Therapy)",
+      "category": "Beauty / Skincare",
+      "signal": "LED face masks continue rising on Amazon driven by TikTok crossover buzz and 'Get Ready With Me' beauty content boosting conversions.",
+      "metric": "One leading mask model cited with nearly 1 million five-star reviews per CJ Dropshipping 2026 viral products report (published 1 week ago)",
+      "momentum": 80
+    },
+    {
+      "name": "Portable Bluetooth Speaker (JBL Flip 7 / JBL Go 3)",
+      "category": "Electronics / Outdoor",
+      "signal": "Waterproof portable Bluetooth speakers are surging on Amazon during the 4th of July holiday weekend, featured prominently across multiple deals roundups this week.",
+      "metric": "Featured as top pick in NBC Select July 4th 2026 deals (July 5, 2026); JBL Go 3 cited in July 3 Gadgeteer roundup",
+      "momentum": 75
+    },
+    {
+      "name": "MaryRuth's Liquid Multivitamin",
+      "category": "Health / Supplements",
+      "signal": "This liquid supplement has become a TikTok Shop juggernaut that is now climbing Amazon wellness charts, driven by creator 'day in the life' and routine content.",
+      "metric": "$29.9 million in TikTok Shop revenue; consistently featured in June\u2013July 2026 TikTok affiliate seller roundups",
+      "momentum": 78
     }
   ],
   "google_trends": [
     {
-      "name": "Portable AC / Window Air Conditioner",
-      "category": "Cooling / Home Appliance",
-      "signal": "Breakout search term this week as a summer heat wave hits parts of the US, with NBC Select and Forbes both publishing 'best portable ACs of 2026' roundups in the last 48 hours.",
+      "name": "Portable AC / Portable Air Conditioner",
+      "category": "Home / Cooling",
+      "signal": "Searches for portable cooling solutions are at their seasonal peak during the July 4th week as heatwaves spread across the US.",
+      "metric": "Amazon AC sales up 248% over 30 days; portable AC units up 208% per FoxEcom 2026 summer report",
       "momentum": 93
     },
     {
-      "name": "Portable Neck Fan",
-      "category": "Cooling / Gadgets",
-      "signal": "Searches for wearable and compact cooling fans are at a seasonal peak, driven by heat advisories and July 4th outdoor activities coverage across major media outlets.",
-      "momentum": 90
+      "name": "Sauna Blanket",
+      "category": "Wellness / Home",
+      "signal": "Google Trends shows a sharp climb in sauna blanket interest beginning late 2024 with sustained high search volume carrying into mid-2026.",
+      "metric": "Sustained high search volume into 2026 per AliDropship Google Trends report (April 2026); ~$100\u2013$200 retail price range",
+      "momentum": 74
     },
     {
       "name": "Hydrogen Water Bottle",
-      "category": "Wellness / Hydration",
-      "signal": "Steady 2025\u20132026 Google Trends uptrend for science-backed hydration products, with search interest climbing further as summer wellness content peaks.",
-      "momentum": 75
+      "category": "Health / Wellness Gadgets",
+      "signal": "Search interest in hydrogen-infused water bottles has grown steadily through 2025 into 2026, driven by science-backed hydration trends and gym culture.",
+      "metric": "Steady upward search curve through 2025\u20132026 per AliDropship April 2026 analysis",
+      "momentum": 71
     },
     {
-      "name": "Sauna Blanket",
-      "category": "Wellness / Health Tech",
-      "signal": "Sharp Google Trends climb beginning late 2024 with sustained high search volume carrying into mid-2026, driven by at-home heat therapy and recovery content.",
-      "momentum": 72
+      "name": "Neck Fan",
+      "category": "Home / Summer Cooling",
+      "signal": "Neck fans are a breakout search term this week as summer heat drives consumers to search for hands-free personal cooling, with 'best neck fans' appearing as an editorial category at Today.com.",
+      "metric": "Interest surged 'in the past month' per Sell The Trend summer 2026 product report; featured search category at Today.com July 2026",
+      "momentum": 90
     },
     {
-      "name": "Hair Repair Mask / Bond Repair Treatment",
-      "category": "Beauty / Haircare",
-      "signal": "Google Trends shows roughly 73K monthly searches and a solid uptrend as consumers invest in post-summer hair health and heat-damage repair.",
+      "name": "Hair Repair Mask",
+      "category": "Beauty / Hair Care",
+      "signal": "Google Trends data shows a solid and sustained uptrend in hair repair mask searches, driven by consumer investment in hair health and damage repair.",
+      "metric": "~73,000 searches per month per CJ Dropshipping Google Trends analysis",
       "momentum": 68
     },
     {
-      "name": "Magnesium Supplements",
-      "category": "Health / Supplements",
-      "signal": "Notably rising Google search interest for magnesium alongside broader sleep-aid and wellness supplement queries, consistent with 2026's personal care search surge.",
-      "momentum": 66
+      "name": "Protein Supplement / High Protein Snacks",
+      "category": "Health / Fitness",
+      "signal": "Searches for high-protein foods and supplements are soaring on Google, tied to broader wellness and body composition trends that are peaking in summer fitness season.",
+      "metric": "#HighProtein has billions of views on TikTok; functional foods seeing 265% YoY growth",
+      "momentum": 82
     },
     {
-      "name": "Freckle Pen / Faux Freckles",
-      "category": "Beauty / Makeup",
-      "signal": "Google Trends shows a spike in interest each July as natural-freckle season peaks, with 2025's summer spike significantly higher than prior years, signaling a repeat in 2026.",
-      "momentum": 64
+      "name": "LED Face Mask / Blue Light Therapy",
+      "category": "Beauty / Skincare",
+      "signal": "Google Trends shows growing interest in blue light therapy skincare devices, with a notable rise carrying into 2026 as at-home beauty tech accelerates.",
+      "metric": "~150,000 searches/month for 'Blue Light Therapy Light' per CJ Dropshipping analysis",
+      "momentum": 77
     },
     {
-      "name": "Insulated Tote Bag",
-      "category": "Outdoor / Summer Accessories",
-      "signal": "Google Trends registered a 2026 spike for insulated tote bags from early in the year, with a second wave of July interest expected as beach and picnic season hits full stride.",
-      "momentum": 71
+      "name": "Jelly Shoes / Jelly Flats",
+      "category": "Fashion / Footwear",
+      "signal": "Jelly shoe styles are breaking out in summer 2026 searches, featured prominently in July 4th fashion deals coverage and trending in both editorial and social channels.",
+      "metric": "Featured as a breakout trend in NBC Select and TODAY July 4th 2026 fashion deal roundups",
+      "momentum": 73
     }
   ],
   "tiktok": [
     {
-      "name": "Portable / Handheld Cooling Fan (#MiniVentilador #TikTokMadeMeBuyIt)",
-      "category": "Cooling / Gadgets",
-      "signal": "TikTok posts this week show creators declaring mini fans are 'literally saving my life in this heat,' with #TikTokMadeMeBuyIt clips going viral ahead of the July 4th holiday.",
-      "momentum": 92
+      "name": "#PerfumeTok / Fragrance Reviews",
+      "category": "Beauty / Fragrance",
+      "signal": "Perfume is currently the #1 trending product on TikTok according to TikTok Creative Center insights, with scent layering videos and fragrance reviews driving massive engagement.",
+      "metric": "#PerfumeTok has amassed 600,000+ posts; cited as #1 trending TikTok product by TikTok Creative Center",
+      "momentum": 91
     },
     {
-      "name": "Automatic Foam Soap Dispenser (#MAGICFOAM #viralproducts)",
-      "category": "Home / Kitchen Gadgets",
-      "signal": "Dedicated TikTok product pages and viral #tiktokmademebuyit demo clips for touch-free 'MAGICFOAM' dispensers are circulating actively in the US this week.",
-      "momentum": 82
-    },
-    {
-      "name": "Smart Ring 2026 (#MustHave #TrendingNow #TikTokMadeMeBuyIt)",
-      "category": "Fitness / Wearables",
-      "signal": "Multiple TikTok Shop affiliate creators are pushing 2026 waterproof health-tracking smart rings with tags #ViralGadget and #NextLevelTech across the FYP this week.",
-      "momentum": 78
-    },
-    {
-      "name": "LED Light Therapy Face Mask (#skincare #grwm)",
+      "name": "LED Face Mask",
       "category": "Beauty / Skincare Tech",
-      "signal": "LED mask content continues to dominate #GRWM and skincare TikTok in 2026, with one mask garnering near-million review counts and sustained FYP virality.",
+      "signal": "LED face masks go viral on TikTok for their visually striking 'Iron Man' glow aesthetic and before-and-after skin claims, dominating beauty tech content in 2026.",
+      "metric": "One leading LED mask model cited with nearly 1 million five-star reviews per CJ Dropshipping viral TikTok products 2026 report (1 week ago)",
+      "momentum": 83
+    },
+    {
+      "name": "#HighProtein / Protein Supplements & Functional Foods",
+      "category": "Health / Nutrition",
+      "signal": "Protein supplement and functional food content is exploding on TikTok, with recipe-driven posts and 'what I eat in a day' videos fueling direct TikTok Shop purchases.",
+      "metric": "#HighProtein has billions of views; protein supplements at 265% YoY growth; MaryRuth's Multivitamin crossed $29M GMV",
+      "momentum": 87
+    },
+    {
+      "name": "Skincare Serums & Essences (K-Beauty)",
+      "category": "Beauty / Skincare",
+      "signal": "Serums and essences are a dominant TikTok category, with K-beauty content generating massive impressions and creators driving high-conversion product recommendations.",
+      "metric": "9 billion TikTok impressions for serums/essences category; related hashtag has 30.2 million posts",
+      "momentum": 85
+    },
+    {
+      "name": "Portable Blender Cup (USB Rechargeable)",
+      "category": "Fitness / Kitchen Gadgets",
+      "signal": "USB rechargeable portable blenders are a staple of TikTok wellness and morning routine videos, with creators blending smoothies on the go in viral demo clips.",
+      "metric": "Featured as a core viral product in CJ Dropshipping's Top 20 TikTok Products 2026 list (published 1 week ago)",
+      "momentum": 79
+    },
+    {
+      "name": "#HairTok / Hair Care & Styling",
+      "category": "Beauty / Hair Care",
+      "signal": "Hair care content on TikTok is generating billions of impressions, with transformation videos and product tutorials driving conversions for shampoos, masks, and styling tools.",
+      "metric": "7 billion TikTok impressions in November 2024 for hair care; #HairTok has 4.5 million posts",
       "momentum": 76
     },
     {
-      "name": "Perfume / Fragrance Layering (#PerfumeTok)",
-      "category": "Beauty / Fragrance",
-      "signal": "#PerfumeTok has amassed over 600K posts and remains the #1 trending product category on the TikTok Creative Center, with layering-routine videos driving massive conversion.",
+      "name": "NOBS Toothpaste Tablets",
+      "category": "Beauty / Personal Care",
+      "signal": "Toothpaste tablets are a breakout TikTok Shop product in 2026, with videos showing the shift from traditional paste to a tablet format driving massive impulse-buy conversions.",
+      "metric": "$21.7 million in TikTok Shop revenue per Winning Hunter 2026 analysis",
+      "momentum": 72
+    },
+    {
+      "name": "Neck Fan (Wearable Cooling)",
+      "category": "Home / Summer Cooling",
+      "signal": "Portable neck fans are appearing across TikTok summer content and #TikTokMadeMeBuyIt videos this week, bridging summer heat trends with strong visual demo appeal.",
+      "metric": "Listed as a top trending summer product for TikTok/Meta content by Sell The Trend 2026; 'interest surged in past month'",
       "momentum": 88
-    },
-    {
-      "name": "Mini Portable Projector (#homegadgets #cozysetup)",
-      "category": "Home Entertainment",
-      "signal": "TikTok aesthetic content showing bedroom ceiling projections and outdoor movie setups at July 4th gatherings is fueling impulse-buy demand for mini wireless projectors.",
-      "momentum": 73
-    },
-    {
-      "name": "40oz Insulated Tumbler / HYDROJug (#WaterTok #40ozTumbler)",
-      "category": "Drinkware / Wellness",
-      "signal": "#WaterTok content tied to TikTok Shop summer deals on HYDROJug and similar tumblers is actively trending on the FYP this week with deal-hunt and lifestyle videos.",
-      "momentum": 80
-    },
-    {
-      "name": "Foldable Fishing Trap (#outdoortiktok #fishing)",
-      "category": "Outdoor / Hobby",
-      "signal": "Viral 'catch and cook' and summer outdoor content on TikTok is driving a strong engagement surge for portable foldable fishing traps, flagged as a June 2026 winning product.",
-      "momentum": 65
     }
   ],
   "aligned": [
     {
-      "name": "Portable / Wearable Cooling Fan",
+      "name": "Portable Neck Fan",
       "sources": [
         "amazon",
         "google_trends",
         "tiktok"
       ],
-      "why": "A US heat wave this week is simultaneously spiking Google searches, Amazon Movers & Shakers rank climbs, and TikTok viral clips \u2014 a rare tri-platform alignment that signals an immediate, high-converting buy opportunity."
+      "why": "Appears as a high-velocity climber on Amazon's 4th of July sales, a breakout Google search term during peak summer heat, and a trending TikTok demo product \u2014 the strongest tri-platform signal of the week."
     },
     {
-      "name": "LED Light Therapy Face Mask",
+      "name": "LED Face Mask (Light Therapy)",
+      "sources": [
+        "amazon",
+        "google_trends",
+        "tiktok"
+      ],
+      "why": "Rising on Amazon best seller lists, a 150K+/month Google search term, and a top viral TikTok beauty product with nearly 1 million five-star reviews \u2014 a rare tri-platform signal in the beauty tech space."
+    },
+    {
+      "name": "Protein Supplements / Functional Foods",
+      "sources": [
+        "amazon",
+        "google_trends",
+        "tiktok"
+      ],
+      "why": "MaryRuth's Liquid Multivitamin is a proven $29M+ TikTok Shop product climbing Amazon wellness charts, while #HighProtein commands billions of TikTok views and surging Google search interest during summer fitness season."
+    },
+    {
+      "name": "Hair Repair Masks / #HairTok",
+      "sources": [
+        "google_trends",
+        "tiktok"
+      ],
+      "why": "Consistently rising Google searches (~73K/month) align directly with TikTok's 7-billion-impression hair care category and 4.5M-post #HairTok hashtag, signaling durable cross-platform demand."
+    },
+    {
+      "name": "Fragrance / #PerfumeTok",
+      "sources": [
+        "google_trends",
+        "tiktok"
+      ],
+      "why": "Perfume is the #1 trending TikTok Shop product per Creative Center data and aligns with Google Trends showing rising fragrance search interest, making it a high-conviction beauty dropshipping opportunity."
+    },
+    {
+      "name": "Skincare Serums (K-Beauty / Hyaluronic Acid)",
       "sources": [
         "amazon",
         "tiktok"
       ],
-      "why": "Sustained TikTok GRWM virality with near-million review counts is directly feeding Amazon Beauty Movers & Shakers rank gains, making this a proven social-to-purchase conversion funnel."
-    },
-    {
-      "name": "Smart Ring (Health Tracker Wearable)",
-      "sources": [
-        "amazon",
-        "tiktok"
-      ],
-      "why": "Active TikTok Shop affiliate campaigns with #MustHave and #ViralGadget tags are converting into Amazon search and sales rank spikes for 2026 waterproof smart rings this week."
-    },
-    {
-      "name": "Insulated Tote / Soft Cooler Bag",
-      "sources": [
-        "amazon",
-        "google_trends"
-      ],
-      "why": "Google Trends shows a 2026 spike in searches for insulated tote bags that is flowing into Amazon summer sales-rank gains, with a second July demand wave expected per seasonal data."
-    },
-    {
-      "name": "Automatic Touch-Free Soap Dispenser",
-      "sources": [
-        "amazon",
-        "tiktok"
-      ],
-      "why": "Dedicated #TikTokMadeMeBuyIt viral product clips for foam soap dispensers are cross-converting to Amazon Home & Kitchen Movers & Shakers rank climbs in real time this week."
-    },
-    {
-      "name": "Mini Portable Projector",
-      "sources": [
-        "amazon",
-        "tiktok"
-      ],
-      "why": "July 4th outdoor movie and aesthetic bedroom TikTok content is simultaneously driving Amazon Electronics rank gains for mini projectors, confirming multi-channel demand momentum."
+      "why": "K-beauty serums and essences dominate TikTok with 9 billion impressions and 30.2M posts, while Amazon's beauty category shows K-beauty, men's grooming, and skincare tools as the most active sub-niches in 2026."
     }
   ],
-  "summary": "The week of June 28\u2013July 5, 2026 is dominated by a summer heat wave and the July 4th holiday, creating an explosive, time-sensitive window for portable cooling gadgets \u2014 neck fans, misting fans, and portable ACs are spiking across Amazon, Google, and TikTok simultaneously. Beyond seasonal products, the aligned signals for LED face masks, smart rings, and automatic soap dispensers confirm that 'wow-factor' wellness and home-tech gadgets remain the strongest evergreen dropshipping opportunity, with TikTok virality consistently converting into Amazon rank climbs. Dropshippers should prioritize portable cooling now for immediate revenue, while building inventory in skincare tech and smart wearables for sustained Q3 momentum.",
-  "updated": "2026-07-05T07:21:27.667927+00:00",
+  "summary": "The week of June 28\u2013July 5, 2026 is defined by two mega-forces: summer heat and beauty tech virality. The portable neck fan is the single strongest dropshipping signal of the week, appearing as a best-seller on Amazon's 4th of July sale, a breakout Google search term (driven by nationwide heatwaves pushing AC sales up 248%), and a TikTok demo darling \u2014 a rare tri-platform convergence. On the beauty front, LED face masks, K-beauty serums, #PerfumeTok, and hair repair products are sustaining massive TikTok impression counts (9B for serums alone) while simultaneously climbing Amazon charts and Google Trends, making the at-home beauty tech and skincare niche the most consistently lucrative category for dropshippers to enter this week.",
+  "updated": "2026-07-05T21:47:50.704627+00:00",
   "updated_display": "July 05, 2026",
   "week_range": "June 28, 2026 \u2013 July 05, 2026"
 }
