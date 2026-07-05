@@ -50,9 +50,9 @@
   .panel-head h3{font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:700}
   .row{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:11px 16px;border-bottom:1px solid var(--line)}
   .row:last-child{border-bottom:none}
-  .r-name{font-weight:600;font-size:13.5px;color:var(--ink);text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+  .r-name{font-weight:600;font-size:13.5px;color:var(--ink);text-decoration:none;min-width:0;flex:1}
   .r-name:hover{text-decoration:underline}
-  .r-metric{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:12.5px;white-space:nowrap;flex-shrink:0;text-align:right}
+  .r-metric{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:12.5px;flex-shrink:0;text-align:right;max-width:42%;overflow-wrap:break-word}
 
   .empty{background:var(--card);border:1px dashed var(--line);border-radius:var(--radius);padding:40px 20px;text-align:center;color:var(--muted)}
   .empty b{color:var(--ink)}
@@ -106,31 +106,45 @@ async function load(){
     let html = '';
     if(d.summary) html += `<div class="summary"><b>This week:</b> ${esc(d.summary)}</div>`;
 
-    // ---- STRONGEST: only items on BOTH Amazon and TikTok ----
-    const winners = (d.aligned||[]).filter(a=>{
-      const src = (a.sources||[]).map(s=>s.toLowerCase());
-      return src.includes('amazon') && src.includes('tiktok');
-    });
+    // ---- STRONGEST: Amazon + TikTok confirmed, all-three sources ranked first ----
+    const aligned = (d.aligned||[]).map(a=>({...a, src:(a.sources||[]).map(s=>s.toLowerCase())}));
+    const winners = aligned
+      .filter(a=>a.src.includes('amazon') && a.src.includes('tiktok'))
+      .sort((a,b)=>b.src.length - a.src.length);
+    const others = aligned.filter(a=>!(a.src.includes('amazon') && a.src.includes('tiktok')));
 
     html += `<h2 class="section">🏆 Strongest This Week</h2>
-    <div class="section-sub">Selling on BOTH Amazon and TikTok Shop — demand confirmed on two platforms</div>
+    <div class="section-sub">Selling on BOTH Amazon and TikTok Shop — all three sources = strongest signal there is</div>
     <div class="board">`;
     if(winners.length){
       winners.forEach((a,i)=>{
-        const chips = (a.sources||[]).map(s=>`<span class="chip ${s}">${LABELS[s]||s}</span>`).join('');
+        const chips = a.src.map(s=>`<span class="chip ${s}">${LABELS[s]||s}</span>`).join('');
         html += `<div class="win-card">
           <div class="rank">${i+1}</div>
           <div style="min-width:0">
             <a class="w-name" href="${linkFor(a.name,'amazon')}" target="_blank" rel="noopener">${esc(a.name)} ↗</a>
             <div class="chips">${chips}</div>
           </div>
-          <div class="w-metric">${esc(a.metric||'')}<small>${a.metric?'reported':'cross-platform'}</small></div>
+          <div class="w-metric">${esc(a.metric||'')}<small>${a.src.length===3?'all 3 sources':a.metric?'reported':'cross-platform'}</small></div>
         </div>`;
       });
     } else {
-      html += `<div class="none">No products confirmed on both Amazon and TikTok this week — check the source panels below for single-platform risers.</div>`;
+      html += `<div class="none">No products confirmed on both Amazon and TikTok this week — check the source panels below.</div>`;
     }
     html += `</div>`;
+
+    // ---- Compact strip: other multi-source overlaps, no explanations ----
+    if(others.length){
+      html += `<h2 class="section">Also Cross-Listed</h2><div class="section-sub">On 2+ sources, but not confirmed on both Amazon and TikTok</div><div class="panel" style="margin-bottom:34px">`;
+      for(const a of others){
+        const chips = a.src.map(s=>`<span class="chip ${s}">${LABELS[s]||s}</span>`).join('');
+        html += `<div class="row">
+          <a class="r-name" href="${linkFor(a.name, a.src[0]||'amazon')}" target="_blank" rel="noopener">${esc(a.name)}</a>
+          <span style="display:flex;gap:5px;align-items:center;flex-shrink:0">${chips}<span class="r-metric" style="color:var(--ink)">${esc(a.metric||'')}</span></span>
+        </div>`;
+      }
+      html += `</div>`;
+    }
 
     // ---- Compact source panels: name + number ----
     html += `<h2 class="section">By Source</h2><div class="section-sub">Ranked by momentum · numbers are real reported figures</div><div class="panels">`;
