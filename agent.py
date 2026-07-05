@@ -42,12 +42,16 @@ TWO OR MORE of the panels above. These are the strongest buy signals.
 
 Respond with ONLY valid JSON, no markdown fences, no commentary, exactly this shape:
 {{
-  "amazon": [{{"name": "...", "category": "...", "signal": "why it's rising, one sentence", "momentum": 1-100}}],
-  "google_trends": [{{"name": "...", "category": "...", "signal": "one sentence", "momentum": 1-100}}],
-  "tiktok": [{{"name": "...", "category": "...", "signal": "one sentence", "momentum": 1-100}}],
+  "amazon": [{{"name": "...", "category": "...", "signal": "why it's rising, one sentence", "metric": "real figure found in search, e.g. '10K+ bought in past month' or '#3 in Movers & Shakers'", "momentum": 1-100}}],
+  "google_trends": [{{"name": "...", "category": "...", "signal": "one sentence", "metric": "real figure, e.g. 'searches up 250% this month' or 'breakout term'", "momentum": 1-100}}],
+  "tiktok": [{{"name": "...", "category": "...", "signal": "one sentence", "metric": "real figure, e.g. '1.2B hashtag views' or '340M views this week'", "momentum": 1-100}}],
   "aligned": [{{"name": "...", "sources": ["amazon","tiktok"], "why": "one sentence on why this is a strong signal"}}],
   "summary": "2-3 sentence plain-language summary of the week's biggest opportunity"
 }}
+
+METRIC RULE: "metric" must be a REAL number or ranking you actually found via search
+(views, units bought, search growth %, bestseller rank). Never invent numbers.
+If you cannot find a real figure for an item, use "" for metric.
 
 momentum = your 1-100 estimate of how fast it's rising (100 = explosive).
 Every item must reflect real, current information found via search."""
