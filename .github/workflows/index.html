@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trend Spotter — Weekly Signal Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F4F6F9; --card:#FFFFFF; --ink:#141A26; --muted:#5B6472;
+    --amazon:#E8890C; --google:#2563EB; --tiktok:#E5266A; --aligned:#0E9F6E;
+    --line:#E3E7EE; --radius:14px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;line-height:1.45;padding:20px 16px 60px}
+  .wrap{max-width:1080px;margin:0 auto}
+
+  header{margin-bottom:22px}
+  .eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(26px,5vw,38px);letter-spacing:-.02em;margin-top:4px}
+  .updated{color:var(--muted);font-size:14px;margin-top:6px}
+
+  .summary{background:var(--ink);color:#F2F5FA;border-radius:var(--radius);padding:18px 20px;font-size:15px;margin:18px 0 26px}
+  .summary b{color:#FFD37A}
+
+  /* Aligned signals — the signature strip */
+  .aligned{margin-bottom:30px}
+  .aligned h2{font-family:'Space Grotesk',sans-serif;font-size:15px;letter-spacing:.06em;text-transform:uppercase;color:var(--aligned);margin-bottom:10px}
+  .aligned-grid{display:grid;gap:10px}
+  .aligned-card{background:var(--card);border:1.5px solid var(--aligned);border-radius:var(--radius);padding:14px 16px;display:flex;flex-direction:column;gap:6px}
+  .aligned-card .name{font-weight:600;font-size:16px}
+  .aligned-card .why{color:var(--muted);font-size:14px}
+  .chips{display:flex;gap:6px;flex-wrap:wrap}
+  .chip{font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:99px;color:#fff}
+  .chip.amazon{background:var(--amazon)} .chip.google_trends{background:var(--google)}
+  .chip.tiktok{background:var(--tiktok)} .chip.google{background:var(--google)}
+
+  /* Three source panels */
+  .panels{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:16px}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+  .panel-head{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:8px}
+  .dot{width:10px;height:10px;border-radius:50%}
+  .panel-head h2{font-family:'Space Grotesk',sans-serif;font-size:16px;font-weight:700}
+  .panel-head .src{margin-left:auto;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+  .item{padding:12px 16px;border-bottom:1px solid var(--line)}
+  .item:last-child{border-bottom:none}
+  .item-top{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+  .item .name{font-weight:600;font-size:14.5px}
+  .item .cat{font-size:12px;color:var(--muted)}
+  .item .signal{font-size:13px;color:var(--muted);margin-top:3px}
+  .bar{height:5px;background:var(--line);border-radius:99px;margin-top:8px;overflow:hidden}
+  .bar > span{display:block;height:100%;border-radius:99px}
+  .m-num{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:13px}
+
+  .empty{background:var(--card);border:1px dashed var(--line);border-radius:var(--radius);padding:40px 20px;text-align:center;color:var(--muted)}
+  .empty b{color:var(--ink)}
+  footer{margin-top:36px;color:var(--muted);font-size:12.5px;text-align:center}
+  @media(max-width:640px){body{padding:14px 10px 50px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Agent 1 · Runs Mondays 6 AM</div>
+    <h1>Trend Spotter</h1>
+    <div class="updated" id="updated">Loading latest run…</div>
+  </header>
+
+  <div id="content"></div>
+
+  <footer>Amazon · Google Trends · TikTok — compared side by side. Aligned signals = two or more sources agree.</footer>
+</div>
+
+<script>
+const COLORS = {amazon:'var(--amazon)', google_trends:'var(--google)', tiktok:'var(--tiktok)'};
+const TITLES = {amazon:'Amazon Rising', google_trends:'Google Trends', tiktok:'TikTok Signals'};
+const SUBS = {amazon:'Movers & Best Sellers', google_trends:'Rising US searches', tiktok:'Breakout hashtags & buzz'};
+
+function itemHTML(it, color){
+  const m = Math.max(1, Math.min(100, it.momentum || 50));
+  return `<div class="item">
+    <div class="item-top">
+      <span class="name">${esc(it.name)}</span>
+      <span class="m-num" style="color:${color}">${m}</span>
+    </div>
+    <div class="cat">${esc(it.category || '')}</div>
+    <div class="signal">${esc(it.signal || '')}</div>
+    <div class="bar"><span style="width:${m}%;background:${color}"></span></div>
+  </div>`;
+}
+
+function esc(s){const d=document.createElement('div');d.textContent=s??'';return d.innerHTML;}
+
+async function load(){
+  const box = document.getElementById('content');
+  try{
+    const res = await fetch('data.json?v=' + Date.now());
+    if(!res.ok) throw new Error('no data yet');
+    const d = await res.json();
+
+    document.getElementById('updated').textContent = 'Last run: ' + (d.updated_display || 'unknown');
+
+    let html = '';
+    if(d.summary) html += `<div class="summary"><b>This week:</b> ${esc(d.summary)}</div>`;
+
+    if(Array.isArray(d.aligned) && d.aligned.length){
+      html += `<section class="aligned"><h2>⚡ Aligned Signals — strongest buys</h2><div class="aligned-grid">`;
+      for(const a of d.aligned){
+        const chips = (a.sources||[]).map(s=>`<span class="chip ${s}">${s.replace('_',' ')}</span>`).join('');
+        html += `<div class="aligned-card"><span class="name">${esc(a.name)}</span><div class="chips">${chips}</div><span class="why">${esc(a.why||'')}</span></div>`;
+      }
+      html += `</div></section>`;
+    }
+
+    html += `<div class="panels">`;
+    for(const key of ['amazon','google_trends','tiktok']){
+      const items = (d[key]||[]).slice().sort((a,b)=>(b.momentum||0)-(a.momentum||0));
+      html += `<div class="panel">
+        <div class="panel-head"><span class="dot" style="background:${COLORS[key]}"></span><h2>${TITLES[key]}</h2><span class="src">${SUBS[key]}</span></div>
+        ${items.map(it=>itemHTML(it, COLORS[key])).join('')}
+      </div>`;
+    }
+    html += `</div>`;
+    box.innerHTML = html;
+  }catch(e){
+    document.getElementById('updated').textContent = '';
+    box.innerHTML = `<div class="empty"><b>No data yet.</b><br><br>Go to your repo's <b>Actions</b> tab → <b>Weekly Trend Spotter</b> → <b>Run workflow</b>.<br>Refresh this page a couple of minutes after it finishes.</div>`;
+  }
+}
+load();
+</script>
+</body>
+</html>
