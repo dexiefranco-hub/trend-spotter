@@ -1,230 +1,240 @@
 {
   "amazon": [
     {
-      "name": "Bladeless Neck Fan (Wearable Cooling)",
-      "category": "Personal Cooling / Gadgets",
-      "signal": "Post-Prime Day summer heat demand is driving explosive sales for hands-free bladeless neck fans like the KIDEE and TORRAS COOLiFY models, featured prominently in multiple Amazon Prime Day 2026 deal roundups this week.",
-      "metric": "TORRAS COOLiFY Lite marked down 39.92% during Prime Day 2026; KIDEE Rechargeable Neck Fan listed at $22.94 in active Prime Day deal coverage",
-      "momentum": 88
+      "name": "Portable Bladeless Neck Fan",
+      "category": "Home / Cooling Gadgets",
+      "signal": "Best Seller in Personal Fans, surging summer demand",
+      "metric": "60K+ bought past month",
+      "momentum": 92
     },
     {
-      "name": "IPL Hair Removal Device",
-      "category": "Beauty / Personal Care",
-      "signal": "IPL devices from Michael Todd and Philips Lumea surged during Prime Day 2026 with steep discounts, signaling high underlying consumer demand for at-home laser hair removal.",
-      "metric": "Michael Todd LUMOS IPL down 60.13%; Philips Lumea 9000 down 34.49% in Prime Day 2026 deal listings",
-      "momentum": 78
-    },
-    {
-      "name": "Shiatsu Neck & Back Massager",
-      "category": "Health & Wellness",
-      "signal": "Massage pillows and shiatsu devices dominate the Amazon Health & Household Best Sellers list in mid-2026, with multiple 2026-upgraded SKUs entering the top rankings.",
-      "metric": "Top 100 Best Sellers in Electric Massagers; Nekteck 2026 Upgraded model and RENPHO Active Thermacool 2 both actively ranking",
+      "name": "Cordless Stick Vacuum",
+      "category": "Home / Cleaning",
+      "signal": "Multiple new 2026 releases climbing best-seller charts",
+      "metric": "7K\u201320K monthly sales tracked",
       "momentum": 74
     },
     {
-      "name": "K-Beauty Skincare (Medicube, Beauty of Joseon)",
+      "name": "Medicube PDRN Pink Collagen Balm",
+      "category": "Beauty / K-Beauty Skincare",
+      "signal": "Viral K-beauty stick selling out on Amazon and TikTok Shop",
+      "metric": "$16.99M Q2 GMV TikTok Shop",
+      "momentum": 95
+    },
+    {
+      "name": "Kojic Acid Brightening Serum",
       "category": "Beauty / Skincare",
-      "signal": "Amazon officially featured K-beauty as a Prime Day 2026 spotlight category with up to 45% off, and affiliate TikTok creators cited Medicube as a top June 2026 seller, confirming cross-platform demand.",
-      "metric": "Up to 45% off select K-beauty at Prime Day 2026; cited as TikTok Shop affiliate top seller June 1\u20137, 2026",
+      "signal": "Exploding view growth, Amazon & TikTok Shop listed",
+      "metric": "1,600% view growth on TikTok",
       "momentum": 85
     },
     {
-      "name": "Mineral Tinted Sunscreen (SPF 50+)",
-      "category": "Beauty / Sun Care",
-      "signal": "Suncare essentials led Amazon Prime Day 2026 beauty deals, with CeraVe tinted mineral sunscreen highlighted as a top reader-purchased product this week on major shopping editorial sites.",
-      "metric": "Up to 30\u201340% off suncare essentials at Prime Day 2026; featured in 'Best Amazon Products 2026' roundup dated July 3, 2026",
-      "momentum": 76
-    },
-    {
-      "name": "Compact Walking Treadmill (Under-Desk / Flat)",
-      "category": "Fitness / Home",
-      "signal": "The Redliro Walking Treadmill appeared in Prime Day 2026 best-deal roundups at 30%+ off, reflecting strong summer demand for at-home low-impact fitness equipment.",
-      "metric": "Redliro Walking Treadmill listed at $256.49 (Save 30.68%) in Prime Day 2026 deal coverage dated June\u2013July 2026",
-      "momentum": 72
-    },
-    {
-      "name": "RENPHO Smart Scale (Bluetooth Body Composition)",
-      "category": "Fitness / Gadgets",
-      "signal": "Smart Bluetooth scales with app sync are cited as top recommended Amazon gadgets in a July 3, 2026 editorial review, driven by ongoing wellness-tracking habits.",
-      "metric": "Named in 'Best Amazon Gadgets Worth Buying in 2026' editorial published July 2, 2026",
-      "momentum": 65
-    },
-    {
-      "name": "Cordless Handheld Vacuum",
-      "category": "Home / Appliances",
-      "signal": "Cordless handvac models (Shark, Homeika) are flagged as both Amazon Prime Day top sellers and TikTok Shop high-GMV products, with buyers praising quick-pickup convenience.",
-      "metric": "Homeika Cordless Vacuum cited at $25M+ GMV on TikTok Shop; Shark Cordless Handvac noted in Prime Day 2026 personal purchase roundup",
+      "name": "Dog Cooling Mat",
+      "category": "Pets",
+      "signal": "Summer new releases surging on Amazon pet best-sellers",
+      "metric": "Multiple top-10 new releases July 2026",
       "momentum": 70
+    },
+    {
+      "name": "Walking Pad Treadmill",
+      "category": "Fitness",
+      "signal": "Ranked top wellness buy of 2026 across multiple editorial sources",
+      "metric": "",
+      "momentum": 78
+    },
+    {
+      "name": "Toplux Magnesium 8-in-1 Supplement",
+      "category": "Health / Supplements",
+      "signal": "TikTok Shop #2 product by GMV, crossing Amazon too",
+      "metric": "$14.23M Q2 TikTok GMV",
+      "momentum": 88
+    },
+    {
+      "name": "LED Aesthetic Mood Lighting",
+      "category": "Home / D\u00e9cor",
+      "signal": "Consistent Amazon mover in home gadgets, TikTok viral",
+      "metric": "$25M+ GMV cited TikTok Shop",
+      "momentum": 72
     }
   ],
   "google_trends": [
     {
-      "name": "Jelly Slides",
-      "category": "Footwear / Summer Fashion",
-      "signal": "Google's official Summergeist 2026 report named 'jelly slides' as the top trending slide type in the past month, with search interest in slides spiking every June since 2017.",
-      "metric": "Top trending slide type per Google Summergeist 2026 report (published ~2 weeks ago)",
-      "momentum": 90
+      "name": "Portable Neck Fan",
+      "category": "Cooling Gadgets",
+      "signal": "Summer heat driving record US search interest right now",
+      "metric": "60K+ Amazon units/month signaling search peak",
+      "momentum": 91
     },
     {
-      "name": "Mouth Tape (Sleep Strips)",
-      "category": "Sleep & Wellness",
-      "signal": "Mouth tape is confirmed as one of the fastest-growing sleep wellness searches on Google Trends in 2026, with an estimated 622,000 monthly searches and 134% year-over-year growth.",
-      "metric": "~622,000 monthly searches; 134% YoY growth per CJ Dropshipping Google Trends report",
-      "momentum": 82
+      "name": "Jelly Slides Sandals",
+      "category": "Footwear",
+      "signal": "Top trending slide type per Google Summergeist 2026 report",
+      "metric": "Peak search interest June\u2013July 2026",
+      "momentum": 80
+    },
+    {
+      "name": "Mouth Tape Sleep Strip",
+      "category": "Sleep / Wellness",
+      "signal": "One of fastest-growing sleep product searches on Google",
+      "metric": "~73K searches/mo rising",
+      "momentum": 76
     },
     {
       "name": "Sauna Blanket",
-      "category": "Health & Wellness",
-      "signal": "Google Trends data shows a sharp climb in sauna blanket interest starting in late 2024 with sustained high search volume into 2026, confirmed as the top trending wellness gadget in the Google Summergeist 2026 report.",
-      "metric": "Named 'top trending wellness gadget' in Google Summergeist 2026; sharp climb sustained through 2026",
-      "momentum": 80
+      "parameter": "category: Wellness / Fitness",
+      "category": "Wellness / Fitness",
+      "signal": "Accio top-8 Google Trends product, consistently rising",
+      "metric": "",
+      "momentum": 71
     },
     {
       "name": "Hair Repair Mask",
       "category": "Beauty / Hair Care",
-      "signal": "Google Trends data shows hair repair mask searches at approximately 73,000 per month with a solid uptrend through 2024\u20132026, driven by heat styling damage and salon-alternative demand.",
-      "metric": "~73K monthly searches per Glimpse/CJ Dropshipping Google Trends data (2026)",
-      "momentum": 75
+      "signal": "Steady Google Trends uptrend into mid-2026",
+      "metric": "~73K searches/month",
+      "momentum": 74
     },
     {
       "name": "Blue Light Therapy Device",
-      "category": "Beauty / Skincare Tech",
-      "signal": "Google Trends shows blue light therapy skincare device searches at roughly 150,000 per month and growing, presenting a less-saturated alternative to the mature red light therapy market.",
-      "metric": "~150K searches/month per CJ Dropshipping Google Trends report (2026)",
-      "momentum": 73
+      "category": "Beauty / Skincare Tools",
+      "signal": "Growing skincare search unsaturated vs red light therapy",
+      "metric": "~150K searches/month rising",
+      "momentum": 69
     },
     {
-      "name": "Sleep Bonnet (Silk Hair Bonnet)",
-      "category": "Beauty / Hair Care",
-      "signal": "Google Trends shows 64% year-over-year growth for 'sleep bonnet' by 2025 into 2026, as the product transitions from niche to mainstream nighttime beauty essential.",
-      "metric": "64% YoY growth by 2025, per CJ Dropshipping Trends report; identified in Accio 2026 top Google Trends list",
-      "momentum": 70
+      "name": "Walking Pad Treadmill",
+      "category": "Fitness / Home Office",
+      "signal": "Sustained purchase-intent search; top wellness buy of 2026",
+      "metric": "",
+      "momentum": 79
     },
     {
-      "name": "Neck Fan / Wearable Fan",
-      "category": "Personal Cooling / Gadgets",
-      "signal": "Summer 2026 heat and the July 4th holiday week are driving searches for portable neck fans, which are simultaneously featured in Prime Day deal roundups and editorial 'Best Neck Fans' lists this week.",
-      "metric": "Featured in Today.com 'Best Neck Fans' editorial category dated July 2026; active Prime Day deal category",
-      "momentum": 85
-    },
-    {
-      "name": "Self Tanner / Self Tanning Lotion",
-      "category": "Beauty / Skincare",
-      "signal": "Self tanning lotion (notably Beauty by Earth) was cited as a top-converting TikTok Shop affiliate product for June 2026, with parallel Google search interest rising heading into peak summer.",
-      "metric": "Cited as TikTok Shop affiliate top seller June 1\u20137, 2026 with conversion data noted",
-      "momentum": 72
+      "name": "Magnesium Supplement",
+      "category": "Health / Supplements",
+      "signal": "Remarkable rise in US searches, all-time search high per data",
+      "metric": "All-time search high 2026",
+      "momentum": 86
     }
   ],
   "tiktok": [
     {
-      "name": "LED Face Mask (Skincare Device)",
-      "category": "Beauty / Skincare Tech",
-      "signal": "LED face masks are confirmed as a top 2026 TikTok viral beauty product, with influencer 'Get Ready With Me' content and before/after videos driving massive conversion; one mask cited with nearly a million five-star reviews from TikTok-driven traffic.",
-      "metric": "Nearly 1 million five-star reviews on one featured SKU; named in CJ Dropshipping '20 TikTok Viral Products 2026' report (updated 1 week ago)",
-      "momentum": 86
+      "name": "Medicube PDRN Pink Collagen Balm",
+      "category": "Beauty / K-Beauty Skincare",
+      "signal": "#1 TikTok Shop US product Q2 2026 by revenue",
+      "metric": "$16.99M Q2 2026 GMV",
+      "momentum": 96
     },
     {
-      "name": "MaryRuth's Liquid Multivitamin",
-      "category": "Health & Wellness / Supplements",
-      "signal": "MaryRuth's Liquid Multivitamin has crossed $29.9 million in TikTok Shop GMV, with creators consistently featuring it in daily routine videos and 'Day in the Life' integrations.",
-      "metric": "$29.9M+ GMV on TikTok Shop; cited in WinningHunter and Accio TikTok Shop 2026 reports",
-      "momentum": 83
+      "name": "Toplux Magnesium 8-in-1 Supplement",
+      "category": "Health / Supplements",
+      "signal": "#2 TikTok Shop US product Q2 2026; supplements rival skincare",
+      "metric": "$14.23M Q2 2026 GMV",
+      "momentum": 90
     },
     {
-      "name": "Homeika Cordless Vacuum",
-      "category": "Home & Lifestyle",
-      "signal": "Homeika's cordless vacuum has generated $25M+ in TikTok Shop GMV driven by satisfying 30-second problem/solution demo clips, with the US market surging for practical home gadgets.",
-      "metric": "$25M+ GMV on TikTok Shop per Accio TikTok Shop 2026 report (updated 2 weeks ago)",
-      "momentum": 80
-    },
-    {
-      "name": "Kojic Acid Skincare Products",
+      "name": "Kojic Acid Brightening Serum",
       "category": "Beauty / Skincare",
-      "signal": "Kojic acid products are experiencing 1,600% view growth on TikTok Shop, driven by skin-brightening and dark spot content with strong before/after visual hooks.",
-      "metric": "1,600% view growth cited in Accio TikTok Shop 2026 report",
-      "momentum": 88
-    },
-    {
-      "name": "Lip Liner Stay-N-Peel",
-      "category": "Beauty / Makeup",
-      "signal": "Lip Liner Stay-N-Peel has accumulated $46M+ in TikTok Shop GMV, with lip transformation demos consistently converting at high rates among women aged 18\u201334.",
-      "metric": "$46M+ GMV on TikTok Shop per Accio 2026 TikTok Shop report",
+      "signal": "1,600% view growth; active on TikTok Shop with creator demos",
+      "metric": "1,600% view growth",
       "momentum": 84
     },
     {
-      "name": "Self Tanning Lotion (Beauty by Earth)",
-      "category": "Beauty / Skincare",
-      "signal": "Beauty by Earth self tanning lotion was specifically named as a top TikTok Shop affiliate seller for the week of June 1\u20137, 2026, with strong commissions and conversion rates noted by creators.",
-      "metric": "Named top TikTok Shop affiliate seller June 1\u20137, 2026 per creator post on TikTok (1 week ago)",
-      "momentum": 79
+      "name": "Lip Liner Stay-N-Peel",
+      "category": "Beauty / Cosmetics",
+      "signal": "Massive GMV driven by peelable lip liner demo videos",
+      "metric": "$46M+ GMV TikTok Shop",
+      "momentum": 88
     },
     {
-      "name": "Ninja Cordless Blender",
-      "category": "Kitchen / Home Gadgets",
-      "signal": "The Ninja Cordless Blender saw an 1,800% surge in TikTok Shop orders recently, fueled by smoothie and protein-shake demo content that thrives in the platform's wellness sub-trend.",
-      "metric": "1,800% surge in orders cited in Accio TikTok Shop 2026 report (updated 2 weeks ago)",
-      "momentum": 87
+      "name": "MaryRuth Liquid Multivitamin",
+      "category": "Health / Supplements",
+      "signal": "Creator routine content driving consistent high-volume sales",
+      "metric": "$29.9M+ revenue TikTok Shop",
+      "momentum": 82
     },
     {
-      "name": "GOPURE Neck Cream",
-      "category": "Beauty / Skincare",
-      "signal": "GOPURE Neck Cream is gaining fast TikTok Shop traction through close-up before/after neck-line videos, a high-specificity product hook that drives strong impulse conversions.",
-      "metric": "Specifically cited as a strong TikTok Shop performer in WinningHunter 2026 guide (within past week)",
-      "momentum": 75
+      "name": "Homeika Cordless Vacuum",
+      "category": "Home / Cleaning",
+      "signal": "Home gadget category surging; $25M GMV cited for brand",
+      "metric": "$25M+ GMV TikTok Shop",
+      "momentum": 76
+    },
+    {
+      "name": "NOBS Toothpaste Tablets",
+      "category": "Personal Care / Oral",
+      "signal": "Satisfying unboxing demos fueling viral tablet toothpaste sales",
+      "metric": "$21.7M+ revenue TikTok Shop",
+      "momentum": 78
+    },
+    {
+      "name": "Portable Handheld Turbo Fan",
+      "category": "Cooling Gadgets",
+      "signal": "Summer seasonal newcomer on TikTok Shop Q2 leaderboard",
+      "metric": "Top Q2 2026 seasonal seller",
+      "momentum": 83
     }
   ],
   "aligned": [
     {
-      "name": "Bladeless / Wearable Neck Fan",
+      "name": "Medicube PDRN Pink Collagen Balm",
+      "sources": [
+        "amazon",
+        "tiktok",
+        "google_trends"
+      ],
+      "why": "Q2's #1 TikTok Shop product; selling fast on Amazon; viral K-beauty searches rising",
+      "metric": "$16.99M Q2 2026 GMV"
+    },
+    {
+      "name": "Toplux Magnesium Supplement",
+      "sources": [
+        "amazon",
+        "tiktok",
+        "google_trends"
+      ],
+      "why": "TikTok Shop #2 by GMV; magnesium at all-time Google search high",
+      "metric": "$14.23M Q2 2026 GMV"
+    },
+    {
+      "name": "Portable Neck Fan",
+      "sources": [
+        "amazon",
+        "tiktok",
+        "google_trends"
+      ],
+      "why": "60K+ Amazon monthly buyers; Google peak summer search; TikTok Shop seasonal hit",
+      "metric": "60K+ bought past month"
+    },
+    {
+      "name": "Kojic Acid Brightening Serum",
+      "sources": [
+        "amazon",
+        "tiktok"
+      ],
+      "why": "1,600% TikTok view growth; active on Amazon and TikTok Shop listings",
+      "metric": "1,600% view growth"
+    },
+    {
+      "name": "Cordless Stick Vacuum",
+      "sources": [
+        "amazon",
+        "tiktok"
+      ],
+      "why": "Amazon best-seller category climbing; Homeika brand hit $25M+ GMV on TikTok",
+      "metric": "$25M+ GMV TikTok Shop"
+    },
+    {
+      "name": "Walking Pad Treadmill",
       "sources": [
         "amazon",
         "google_trends"
       ],
-      "why": "Simultaneously dominating Amazon Prime Day 2026 deal charts and Google Trends editorial 'Best Neck Fans' search lists this week, with summer heat driving explosive cross-platform purchase intent at peak seasonal timing."
-    },
-    {
-      "name": "K-Beauty Skincare / Kojic Acid",
-      "sources": [
-        "amazon",
-        "tiktok"
-      ],
-      "why": "Medicube and kojic acid products are active on both Amazon's Prime Day 2026 K-beauty spotlight (up to 45% off) and TikTok Shop with 1,600% view growth, confirming sustained multi-channel consumer demand."
-    },
-    {
-      "name": "Sauna Blanket",
-      "sources": [
-        "google_trends",
-        "tiktok"
-      ],
-      "why": "Named Google's top trending wellness gadget in the Summergeist 2026 report and consistently appearing in TikTok Shop wellness content with strong #Wellness hashtag traffic in the billions, making it a high-margin dropship opportunity."
-    },
-    {
-      "name": "Self Tanning Lotion",
-      "sources": [
-        "google_trends",
-        "tiktok"
-      ],
-      "why": "Rising in both Google summer beauty search trends and confirmed as a top-converting TikTok Shop affiliate product in the June 2026 affiliate seller week, with clear seasonal peak timing right now."
-    },
-    {
-      "name": "Hair Repair Mask / Sleep Bonnet",
-      "sources": [
-        "google_trends",
-        "tiktok"
-      ],
-      "why": "Both products rank in the top Google Trends product lists for 2026 and are active in TikTok hair care 'routine' content, with hair repair masks at ~73K monthly searches and sleep bonnets at 64% YoY growth confirmed across platforms."
-    },
-    {
-      "name": "Cordless Handheld / Robotic Vacuum",
-      "sources": [
-        "amazon",
-        "tiktok"
-      ],
-      "why": "Shark cordless vac featured in Amazon Prime Day 2026 personal-purchase roundups and Homeika cordless vacuum has $25M+ TikTok Shop GMV, with satisfying cleaning demo content consistently driving impulse buys on both platforms."
+      "why": "Top-ranked 2026 wellness purchase; sustained Google search and Amazon demand",
+      "metric": ""
     }
   ],
-  "summary": "The week of June 28\u2013July 5, 2026 is dominated by summer heat, post-Prime Day momentum, and the wellness 'maxxing' macro-trend confirmed by Google's own Summergeist 2026 report. Wearable neck fans and K-beauty skincare are the clearest multi-platform buy signals, appearing simultaneously on Amazon deal charts, Google Trends search spikes, and TikTok Shop affiliate top-seller lists. Dropshippers should prioritize high-visual, problem-solving products \u2014 especially personal cooling, at-home beauty tech (LED masks, IPL devices, kojic acid), and wellness sleep aids (mouth tape, sauna blankets) \u2014 as these categories are showing explosive, real-data momentum across all three channels right now.",
-  "updated": "2026-07-05T22:47:28.367686+00:00",
+  "summary": "The week of June 28\u2013July 5, 2026 is dominated by three cross-platform titans: the Medicube PDRN Pink Collagen Balm (TikTok Shop's #1 Q2 product at $16.99M GMV, now also surging on Amazon), Toplux Magnesium supplements (#2 at $14.23M as magnesium hits an all-time Google search high), and Portable Neck Fans (60K+ Amazon monthly buyers + peak summer Google searches + TikTok Shop seasonal momentum). Dropshippers have the strongest possible signal in K-beauty skincare and wellness supplements, with the bladeless neck fan representing the biggest opportunistic summer play before peak heat-season demand cools.",
+  "updated": "2026-07-05T23:31:46.834542+00:00",
   "updated_display": "July 05, 2026",
   "week_range": "June 28, 2026 \u2013 July 05, 2026"
 }
