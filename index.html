@@ -9,90 +9,74 @@
 <style>
   :root{
     --bg:#F4F6F9; --card:#FFFFFF; --ink:#141A26; --muted:#5B6472;
-    --amazon:#E8890C; --google:#2563EB; --tiktok:#E5266A; --aligned:#0E9F6E;
+    --amazon:#E8890C; --google:#2563EB; --tiktok:#E5266A; --win:#0E9F6E;
     --line:#E3E7EE; --radius:14px;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;line-height:1.45;padding:20px 16px 60px}
-  .wrap{max-width:1080px;margin:0 auto}
+  .wrap{max-width:1000px;margin:0 auto}
 
-  header{margin-bottom:18px}
+  header{margin-bottom:16px}
+  .topbar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
   .eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
-  h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(26px,5vw,38px);letter-spacing:-.02em;margin-top:4px}
-  .updated{color:var(--muted);font-size:14px;margin-top:6px;font-weight:500}
+  .navbtn{background:var(--ink);color:#fff;font-weight:600;font-size:13.5px;padding:9px 16px;border-radius:99px;text-decoration:none;white-space:nowrap}
+  h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(26px,5vw,36px);letter-spacing:-.02em;margin-top:4px}
+  .updated{color:var(--muted);font-size:14px;margin-top:4px;font-weight:500}
 
-  .summary{background:var(--ink);color:#F2F5FA;border-radius:var(--radius);padding:18px 20px;font-size:15px;margin:16px 0 28px}
+  .summary{background:var(--ink);color:#F2F5FA;border-radius:var(--radius);padding:16px 18px;font-size:14.5px;margin:16px 0 28px}
   .summary b{color:#FFD37A}
 
-  h2.section{font-family:'Space Grotesk',sans-serif;font-size:15px;letter-spacing:.06em;text-transform:uppercase;margin:0 0 12px;color:var(--ink)}
-  h2.section .sub{display:block;font-family:'Inter';text-transform:none;letter-spacing:0;font-size:13px;color:var(--muted);font-weight:400;margin-top:2px}
+  h2.section{font-family:'Space Grotesk',sans-serif;font-size:15px;letter-spacing:.06em;text-transform:uppercase;margin:0 0 4px}
+  .section-sub{font-size:13px;color:var(--muted);margin-bottom:12px}
 
-  /* ---- Strongest This Week leaderboard ---- */
+  /* Strongest = cross-platform winners only */
   .board{display:grid;gap:10px;margin-bottom:34px}
-  .board-row{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;display:grid;grid-template-columns:44px 1fr auto;gap:12px;align-items:center}
-  .board-row.top{border:1.5px solid var(--aligned)}
-  .rank{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:24px;color:var(--muted);text-align:center}
-  .board-row.top .rank{color:var(--aligned)}
-  .b-name{font-weight:700;font-size:16px;color:var(--ink);text-decoration:none}
-  .b-name:hover{text-decoration:underline}
-  .b-meta{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:5px}
-  .b-why{color:var(--muted);font-size:13.5px;margin-top:5px}
-  .metric-big{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:15px;text-align:right;color:var(--ink);white-space:nowrap}
-  .metric-big small{display:block;font-family:'Inter';font-weight:500;font-size:11px;color:var(--muted)}
-
+  .win-card{background:var(--card);border:1.5px solid var(--win);border-radius:var(--radius);padding:14px 16px;display:grid;grid-template-columns:40px 1fr auto;gap:12px;align-items:center}
+  .rank{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;color:var(--win);text-align:center}
+  .w-name{font-weight:700;font-size:16px;color:var(--ink);text-decoration:none;display:block}
+  .w-name:hover{text-decoration:underline}
+  .chips{display:flex;gap:5px;flex-wrap:wrap;margin-top:5px}
   .chip{font-size:10.5px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:99px;color:#fff}
   .chip.amazon{background:var(--amazon)} .chip.google_trends{background:var(--google)} .chip.tiktok{background:var(--tiktok)}
+  .w-metric{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;color:var(--win);text-align:right;max-width:150px}
+  .w-metric small{display:block;font-family:'Inter';font-weight:500;font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+  .none{background:var(--card);border:1px dashed var(--line);border-radius:var(--radius);padding:18px;color:var(--muted);font-size:14px}
 
-  /* ---- Unified comparison chart ---- */
-  .compare{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 16px;margin-bottom:34px}
-  .legend{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:14px}
-  .legend span{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--muted);font-weight:500}
-  .legend i{width:10px;height:10px;border-radius:3px;display:inline-block}
-  .c-row{display:grid;grid-template-columns:minmax(120px,220px) 1fr auto;gap:10px;align-items:center;padding:7px 0;border-bottom:1px solid var(--line)}
-  .c-row:last-child{border-bottom:none}
-  .c-name{font-size:13.5px;font-weight:600;color:var(--ink);text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .c-name:hover{text-decoration:underline}
-  .c-track{background:var(--line);border-radius:99px;height:16px;overflow:hidden}
-  .c-fill{height:100%;border-radius:99px;display:flex;align-items:center;justify-content:flex-end;padding-right:7px;min-width:34px}
-  .c-fill b{font-family:'Space Grotesk',sans-serif;font-size:11px;color:#fff;font-weight:700}
-  .c-metric{font-size:12px;color:var(--muted);white-space:nowrap;text-align:right;font-weight:500;max-width:150px;overflow:hidden;text-overflow:ellipsis}
-
-  /* ---- Source detail cards ---- */
-  .panels{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:16px}
+  /* Compact source panels: name + number only */
+  .panels{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
   .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
-  .panel-head{padding:13px 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:8px}
-  .dot{width:10px;height:10px;border-radius:50%}
+  .panel-head{padding:12px 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:8px}
+  .dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
   .panel-head h3{font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:700}
-  .item{padding:11px 16px;border-bottom:1px solid var(--line)}
-  .item:last-child{border-bottom:none}
-  .item-top{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
-  .i-name{font-weight:600;font-size:14px;color:var(--ink);text-decoration:none}
-  .i-name:hover{text-decoration:underline}
-  .i-metric{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:12.5px;white-space:nowrap}
-  .i-signal{font-size:12.5px;color:var(--muted);margin-top:3px}
+  .row{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:11px 16px;border-bottom:1px solid var(--line)}
+  .row:last-child{border-bottom:none}
+  .r-name{font-weight:600;font-size:13.5px;color:var(--ink);text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+  .r-name:hover{text-decoration:underline}
+  .r-metric{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:12.5px;white-space:nowrap;flex-shrink:0;text-align:right}
 
   .empty{background:var(--card);border:1px dashed var(--line);border-radius:var(--radius);padding:40px 20px;text-align:center;color:var(--muted)}
   .empty b{color:var(--ink)}
-  footer{margin-top:36px;color:var(--muted);font-size:12.5px;text-align:center}
+  footer{margin-top:34px;color:var(--muted);font-size:12.5px;text-align:center}
   @media(max-width:640px){
     body{padding:14px 10px 50px}
-    .c-row{grid-template-columns:minmax(90px,130px) 1fr}
-    .c-metric{display:none}
-    .metric-big{font-size:13px}
+    .w-metric{max-width:110px;font-size:14px}
   }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <div class="eyebrow">Agent 1 · Runs Mondays 6 AM</div>
+    <div class="topbar">
+      <div class="eyebrow">Agent 1 · Products · Mondays 6 AM</div>
+      <a class="navbtn" href="trends.html">Agent 2: Social Radar →</a>
+    </div>
     <h1>Trend Spotter</h1>
     <div class="updated" id="updated">Loading latest run…</div>
   </header>
 
   <div id="content"></div>
 
-  <footer>Ranked by cross-source strength · momentum score 1–100 · tap any product to view it live</footer>
+  <footer>🏆 = confirmed selling on Amazon AND TikTok · tap any product to view it live</footer>
 </div>
 
 <script>
@@ -100,15 +84,14 @@ const COLORS = {amazon:'var(--amazon)', google_trends:'var(--google)', tiktok:'v
 const LABELS = {amazon:'Amazon', google_trends:'Google', tiktok:'TikTok'};
 
 function esc(s){const d=document.createElement('div');d.textContent=s??'';return d.innerHTML;}
+function norm(s){return (s||'').toLowerCase().replace(/[^a-z0-9 ]/g,'').trim();}
 
 function linkFor(name, panel){
   const q = encodeURIComponent(name);
   if(panel === 'amazon') return `https://www.amazon.com/s?k=${q}`;
-  if(panel === 'tiktok') return `https://www.google.com/search?q=${q}+TikTok`;  // TikTok blocks logged-out visits
+  if(panel === 'tiktok') return `https://www.google.com/search?q=${q}+TikTok+Shop`;
   return `https://www.google.com/search?q=${q}`;
 }
-
-function norm(s){return (s||'').toLowerCase().replace(/[^a-z0-9 ]/g,'').trim();}
 
 async function load(){
   const box = document.getElementById('content');
@@ -120,84 +103,44 @@ async function load(){
     document.getElementById('updated').textContent = d.week_range
       ? 'Week of ' + d.week_range : 'Last run: ' + (d.updated_display || '');
 
-    // Flatten every item from every source into one list
-    let all = [];
-    for(const key of ['amazon','google_trends','tiktok']){
-      for(const it of (d[key]||[])){
-        all.push({...it, source:key, momentum: Math.max(1,Math.min(100, it.momentum||50))});
-      }
-    }
-
-    // Score: momentum + big bonus if the item appears in the aligned list
-    const alignedNames = (d.aligned||[]).map(a=>norm(a.name));
-    const alignedMap = {};
-    for(const a of (d.aligned||[])) alignedMap[norm(a.name)] = a;
-    for(const it of all){
-      const n = norm(it.name);
-      it.aligned = alignedNames.some(an => an && (n.includes(an) || an.includes(n)));
-      it.score = it.momentum + (it.aligned ? 30 : 0);
-    }
-    all.sort((a,b)=>b.score-a.score);
-
     let html = '';
     if(d.summary) html += `<div class="summary"><b>This week:</b> ${esc(d.summary)}</div>`;
 
-    // ---- 1. STRONGEST THIS WEEK ----
-    const seen = new Set();
-    const top = [];
-    for(const it of all){
-      const n = norm(it.name);
-      if(seen.has(n)) continue;
-      seen.add(n); top.push(it);
-      if(top.length===5) break;
-    }
-    html += `<h2 class="section">🏆 Strongest This Week<span class="sub">Ranked by momentum + how many sources agree</span></h2><div class="board">`;
-    top.forEach((it,i)=>{
-      const a = alignedMap[norm(it.name)];
-      const chips = a ? (a.sources||[]).map(s=>`<span class="chip ${s}">${LABELS[s]||s}</span>`).join('')
-                      : `<span class="chip ${it.source}">${LABELS[it.source]}</span>`;
-      const why = a?.why || it.signal || '';
-      html += `<div class="board-row ${it.aligned?'top':''}">
-        <div class="rank">${i+1}</div>
-        <div>
-          <a class="b-name" href="${linkFor(it.name, it.source)}" target="_blank" rel="noopener">${esc(it.name)} ↗</a>
-          <div class="b-meta">${chips}</div>
-          <div class="b-why">${esc(why)}</div>
-        </div>
-        <div class="metric-big">${esc(it.metric||String(it.momentum))}<small>${it.metric?'reported figure':'momentum score'}</small></div>
-      </div>`;
+    // ---- STRONGEST: only items on BOTH Amazon and TikTok ----
+    const winners = (d.aligned||[]).filter(a=>{
+      const src = (a.sources||[]).map(s=>s.toLowerCase());
+      return src.includes('amazon') && src.includes('tiktok');
     });
-    html += `</div>`;
 
-    // ---- 2. ALL SIGNALS COMPARED ----
-    html += `<h2 class="section">📊 All Signals Compared<span class="sub">Every item on one scale — longer bar = faster rise</span></h2>
-    <div class="compare">
-      <div class="legend">
-        <span><i style="background:var(--amazon)"></i>Amazon</span>
-        <span><i style="background:var(--google)"></i>Google Trends</span>
-        <span><i style="background:var(--tiktok)"></i>TikTok</span>
-      </div>`;
-    for(const it of all){
-      html += `<div class="c-row">
-        <a class="c-name" href="${linkFor(it.name, it.source)}" target="_blank" rel="noopener">${esc(it.name)}</a>
-        <div class="c-track"><div class="c-fill" style="width:${it.momentum}%;background:${COLORS[it.source]}"><b>${it.momentum}</b></div></div>
-        <div class="c-metric">${esc(it.metric||'')}</div>
-      </div>`;
+    html += `<h2 class="section">🏆 Strongest This Week</h2>
+    <div class="section-sub">Selling on BOTH Amazon and TikTok Shop — demand confirmed on two platforms</div>
+    <div class="board">`;
+    if(winners.length){
+      winners.forEach((a,i)=>{
+        const chips = (a.sources||[]).map(s=>`<span class="chip ${s}">${LABELS[s]||s}</span>`).join('');
+        html += `<div class="win-card">
+          <div class="rank">${i+1}</div>
+          <div style="min-width:0">
+            <a class="w-name" href="${linkFor(a.name,'amazon')}" target="_blank" rel="noopener">${esc(a.name)} ↗</a>
+            <div class="chips">${chips}</div>
+          </div>
+          <div class="w-metric">${esc(a.metric||'')}<small>${a.metric?'reported':'cross-platform'}</small></div>
+        </div>`;
+      });
+    } else {
+      html += `<div class="none">No products confirmed on both Amazon and TikTok this week — check the source panels below for single-platform risers.</div>`;
     }
     html += `</div>`;
 
-    // ---- 3. SOURCE DETAIL ----
-    html += `<h2 class="section">Source Detail</h2><div class="panels">`;
+    // ---- Compact source panels: name + number ----
+    html += `<h2 class="section">By Source</h2><div class="section-sub">Ranked by momentum · numbers are real reported figures</div><div class="panels">`;
     for(const key of ['amazon','google_trends','tiktok']){
       const items = (d[key]||[]).slice().sort((a,b)=>(b.momentum||0)-(a.momentum||0));
       html += `<div class="panel">
-        <div class="panel-head"><span class="dot" style="background:${COLORS[key]}"></span><h3>${key==='amazon'?'Amazon Rising':key==='google_trends'?'Google Trends':'TikTok Signals'}</h3></div>
-        ${items.map(it=>`<div class="item">
-          <div class="item-top">
-            <a class="i-name" href="${linkFor(it.name,key)}" target="_blank" rel="noopener">${esc(it.name)} ↗</a>
-            <span class="i-metric" style="color:${COLORS[key]}">${esc(it.metric||it.momentum)}</span>
-          </div>
-          <div class="i-signal">${esc(it.signal||'')}</div>
+        <div class="panel-head"><span class="dot" style="background:${COLORS[key]}"></span><h3>${key==='amazon'?'Amazon':key==='google_trends'?'Google Trends':'TikTok'}</h3></div>
+        ${items.map(it=>`<div class="row">
+          <a class="r-name" href="${linkFor(it.name,key)}" target="_blank" rel="noopener">${esc(it.name)}</a>
+          <span class="r-metric" style="color:${COLORS[key]}">${esc(it.metric||it.momentum)}</span>
         </div>`).join('')}
       </div>`;
     }
@@ -206,7 +149,7 @@ async function load(){
     box.innerHTML = html;
   }catch(e){
     document.getElementById('updated').textContent = '';
-    box.innerHTML = `<div class="empty"><b>No data yet.</b><br><br>Go to your repo's <b>Actions</b> tab → <b>Weekly Trend Spotter</b> → <b>Run workflow</b>.<br>Refresh this page a couple of minutes after it finishes.</div>`;
+    box.innerHTML = `<div class="empty"><b>No data yet.</b><br><br>Go to Actions → <b>Weekly Trend Spotter</b> → <b>Run workflow</b>, then refresh here.</div>`;
   }
 }
 load();
