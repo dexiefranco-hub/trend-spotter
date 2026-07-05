@@ -18,9 +18,13 @@ from anthropic import Anthropic
 client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
 PROMPT = """You are a product trend research agent for a dropshipping business.
-Today's date: {today}.
+Today's date: {today}. You are reporting on the week of {week_start} to {today}.
 
-Use web search to research CURRENT data (this week) for three separate panels:
+STRICT RECENCY RULE: Only include items supported by information from the LAST 7 DAYS.
+Include the current year in your search queries. If a search result is older than
+about two weeks, do not use it. Prefer "this week" and "right now" signals.
+
+Use web search to research CURRENT data for three separate panels:
 
 PANEL 1 — AMAZON: Products currently rising on Amazon (Movers & Shakers style
 signals, best seller climbers). Focus on consumer products a dropshipper could
@@ -60,14 +64,18 @@ def extract_json(text: str):
 
 
 def main():
-    today = datetime.now(timezone.utc).strftime("%B %d, %Y")
-    print(f"Running Trend Spotter for {today}...")
+    from datetime import timedelta
+
+    now = datetime.now(timezone.utc)
+    today = now.strftime("%B %d, %Y")
+    week_start = (now - timedelta(days=7)).strftime("%B %d, %Y")
+    print(f"Running Trend Spotter for week {week_start} - {today}...")
 
     response = client.messages.create(
         model="claude-sonnet-4-6",
         max_tokens=4000,
         tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 8}],
-        messages=[{"role": "user", "content": PROMPT.format(today=today)}],
+        messages=[{"role": "user", "content": PROMPT.format(today=today, week_start=week_start)}],
     )
 
     # Combine all text blocks (web search responses interleave tool blocks)
@@ -88,8 +96,9 @@ def main():
             print(f"Panel '{key}' came back empty — keeping previous data.", file=sys.stderr)
             sys.exit(1)
 
-    data["updated"] = datetime.now(timezone.utc).isoformat()
+    data["updated"] = now.isoformat()
     data["updated_display"] = today
+    data["week_range"] = f"{week_start} – {today}"
 
     with open("data.json", "w") as f:
         json.dump(data, f, indent=2)
