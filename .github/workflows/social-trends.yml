@@ -1,0 +1,43 @@
+name: Weekly Social Trend Radar
+
+on:
+  schedule:
+    # Runs Monday 11:30 UTC = 6:30 AM Houston (CDT) — 30 min after Agent 1
+    - cron: '30 11 * * 1'
+  workflow_dispatch: {}   # manual Run workflow button for testing
+
+permissions:
+  contents: write
+
+concurrency:
+  group: social-radar
+  cancel-in-progress: true
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the repo files
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install the Anthropic library
+        run: pip install anthropic
+
+      - name: Run the Social Trend Radar agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python social_agent.py
+
+      - name: Save the new results
+        run: |
+          git config user.name "trend-spotter-bot"
+          git config user.email "actions@github.com"
+          git pull --rebase
+          git add social.json
+          git commit -m "Weekly social trend update $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push
