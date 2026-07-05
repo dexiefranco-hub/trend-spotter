@@ -39,12 +39,12 @@ PANEL 3 — TIKTOK: Specific PRODUCTS getting strong buying traction on TikTok
 right now — items being tagged, demoed, and sold in videos (TikTok Shop style
 signals). Strictly products, not hashtags or cultural trends. Find 6-8 items.
 
-Then PANEL 4 — CROSS-PLATFORM WINNERS: For your top Amazon products, actively
-search whether the SAME product is also selling on TikTok Shop (e.g. search
-"<product> TikTok Shop"). Products confirmed moving on BOTH platforms go in
-"aligned" with sources ["amazon","tiktok"]. These are the strongest buy
-signals because demand is validated on two platforms. Also include any
-Google Trends overlaps. Aim for 3-5 aligned items.
+Then PANEL 4 — CROSS-PLATFORM WINNERS: Check every product for overlap across
+panels. For your top Amazon products, actively search whether the SAME product
+is also selling on TikTok Shop (e.g. search "<product> TikTok Shop"). Any
+product appearing in 2+ panels goes in "aligned" — and you MUST list EVERY
+panel it appears in under "sources". A product on ALL THREE panels is the
+strongest possible signal and must always be included. Aim for 3-6 aligned items.
 
 Respond with ONLY valid JSON, no markdown fences, no commentary, exactly this shape:
 {{
@@ -56,10 +56,27 @@ Respond with ONLY valid JSON, no markdown fences, no commentary, exactly this sh
 }}
 
 METRIC RULE — CRITICAL: Every real figure you find (units bought, GMV, views,
-search volume, growth %, bestseller rank) goes in the "metric" field, NOT
-buried inside signal sentences. Never invent numbers. Use "" only if you
-truly found no figure. Keep "signal" and "why" SHORT — they display on a
-small dashboard.
+search volume, growth %, bestseller rank) goes in the "metric" field. Metric
+must be 6 WORDS MAX, number first, no source citations — write "$46M+ GMV"
+not "$46M+ GMV on TikTok Shop per Accio 2026 report". Never invent numbers.
+Use "" only if you truly found no figure.
+
+NAME RULE: "name" is the clean product name only, 2-5 words (e.g. "Kojic Acid
+Serum", "Walking Pad Treadmill"). Never put discounts, promo text, or
+sentences in name.
+
+NO DEALS RULE: A discount or markdown is a PRICE signal, not a DEMAND signal.
+Never include items just because they are on sale, in Prime Day roundups, or
+marked down. Only include items with evidence of rising DEMAND (sales volume,
+search growth, view growth).
+
+CONSISTENCY RULE: Prefer the items with the MOST independent evidence — cited
+by multiple sources — over one-off mentions. If you saw it in only one place,
+it should rank low or be excluded.
+
+SUMMARY RULE: The summary must be about the ALIGNED cross-platform winners
+specifically — the same products in "aligned" — so the summary and the
+winners list always tell the same story.
 
 momentum = your 1-100 estimate of how fast it's rising (100 = explosive).
 Every item must reflect real, current information found via search."""
