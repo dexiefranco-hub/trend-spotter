@@ -1,189 +1,179 @@
 {
   "amazon": [
     {
+      "name": "Homeika Cordless Vacuum",
+      "category": "Home / Cleaning",
+      "signal": "Top seller 20K+ monthly units, TikTok demo crossover",
+      "metric": "20K+ monthly sales, $25M+ GMV",
+      "momentum": 82
+    },
+    {
       "name": "Portable Neck Fan",
-      "category": "Gadgets / Personal Cooling",
-      "signal": "Best Seller #1 Personal Fans, summer heatwave demand exploding",
-      "metric": "60K+ bought past month",
-      "momentum": 95
+      "category": "Gadgets / Summer",
+      "signal": "Heatwave demand spike, wearable cooling exploding this summer",
+      "metric": "10K+ bought past month",
+      "momentum": 88
     },
     {
-      "name": "Infrared Sauna Blanket",
-      "category": "Health & Wellness",
-      "signal": "New releases surging, home wellness demand accelerating",
-      "metric": "80K monthly searches, climbing",
-      "momentum": 72
+      "name": "Floating Pool Umbrella",
+      "category": "Outdoor / Summer",
+      "signal": "July summer pool season peak, cross-platform demand surge",
+      "metric": "1K+ bought past month",
+      "momentum": 79
     },
     {
-      "name": "Mouth Tape Sleep Strips",
-      "category": "Health & Wellness / Sleep",
-      "signal": "Sleep-crossover beauty trend, top Amazon wellness climber",
-      "metric": "Breakout search growth confirmed",
+      "name": "LED Face Mask",
+      "category": "Beauty / Skincare Tech",
+      "signal": "Nearly 1M five-star reviews, TikTok GRWM crossover strong",
+      "metric": "50K+ bought past month",
+      "momentum": 76
+    },
+    {
+      "name": "Sauna Blanket",
+      "category": "Wellness / Fitness",
+      "signal": "Sustained Google + TikTok climb since late 2024 into 2026",
+      "metric": "Top 5 wellness category BSR",
       "momentum": 78
+    },
+    {
+      "name": "MaryRuth Liquid Multivitamin",
+      "category": "Health / Supplements",
+      "signal": "Creators featuring in daily routines, Amazon subscription leader",
+      "metric": "$29.9M+ TikTok Shop revenue",
+      "momentum": 74
     },
     {
       "name": "Kojic Acid Serum",
       "category": "Beauty / Skincare",
-      "signal": "K-beauty brightening ingredient, Amazon skincare top rankings",
-      "metric": "1,600% TikTok view growth",
-      "momentum": 88
+      "signal": "Hyperpigmentation trend driving 1,600% view growth, multiple sellers",
+      "metric": "180K+ units sold on TikTok",
+      "momentum": 85
     },
     {
-      "name": "Posture Corrector Wearable",
-      "category": "Health / Fitness",
-      "signal": "Desk-worker demand sustained, Amazon movers climber",
+      "name": "Cordless Pool Vacuum",
+      "category": "Home / Outdoor",
+      "signal": "2026 upgraded models surging on Amazon summer best sellers list",
       "metric": "10K+ bought past month",
-      "momentum": 65
-    },
-    {
-      "name": "Hair Repair Mask",
-      "category": "Beauty / Hair Care",
-      "signal": "Bond-repair trend driving Amazon beauty best sellers",
-      "metric": "~73K searches/month, rising",
-      "momentum": 70
-    },
-    {
-      "name": "Homeika Cordless Vacuum",
-      "category": "Home / Appliances",
-      "signal": "Viral home gadget climbing Amazon home rankings fast",
-      "metric": "$25M+ TikTok GMV",
-      "momentum": 80
-    },
-    {
-      "name": "Sleep Bonnet Silk",
-      "category": "Beauty / Hair Care",
-      "signal": "Hair-preservation trend pushing Amazon beauty climber",
-      "metric": "Top Google Trends rising product",
-      "momentum": 67
+      "momentum": 71
     }
   ],
   "google_trends": [
     {
       "name": "Portable Neck Fan",
-      "category": "Gadgets / Personal Cooling",
-      "signal": "Summer heatwave search spikes, 2026 season high interest",
-      "metric": "Top breakout search, summer 2026",
-      "momentum": 93
-    },
-    {
-      "name": "Mouth Tape",
-      "category": "Health & Wellness / Sleep",
-      "signal": "Meteoric rise since 2022, fastest-growing sleep wellness search",
-      "metric": "Breakout status confirmed",
-      "momentum": 80
+      "category": "Gadgets / Summer Cooling",
+      "signal": "Spikes in real time with US heatwave news cycles this July",
+      "metric": "Peak interest, +seasonal surge",
+      "momentum": 91
     },
     {
       "name": "Sauna Blanket",
-      "category": "Health & Wellness",
-      "signal": "Sharp climb late 2024 into 2026, home spa demand surging",
-      "metric": "~80K searches/month, climbing",
-      "momentum": 74
+      "category": "Wellness / Home Spa",
+      "signal": "Sharp climb since late 2024, sustained high volume into July 2026",
+      "metric": "Consistent top 5 wellness search",
+      "momentum": 77
     },
     {
-      "name": "Hair Repair Mask",
-      "category": "Beauty / Hair Care",
-      "signal": "Steady uptrend through 2025 into 2026, bond-repair wave",
-      "metric": "~73K searches/month",
-      "momentum": 68
+      "name": "Mouth Tape Sleep Strips",
+      "category": "Sleep / Wellness",
+      "signal": "Fastest-growing sleep trend in US searches, multi-year climb",
+      "metric": "Breakout search, +200% YoY",
+      "momentum": 80
     },
     {
       "name": "Kojic Acid Serum",
       "category": "Beauty / Skincare",
-      "signal": "K-beauty brightening search climbing rapidly US market",
-      "metric": "1,600% view growth signal",
-      "momentum": 85
+      "signal": "K-beauty hyperpigmentation searches surging US summer 2026",
+      "metric": "7.4M TikTok Shop sold",
+      "momentum": 84
+    },
+    {
+      "name": "Hair Repair Mask",
+      "category": "Hair Care / Beauty",
+      "signal": "Steady uptrend 73K searches/mo, TikTok tutorials amplifying",
+      "metric": "~73K searches/mo",
+      "momentum": 72
+    },
+    {
+      "name": "Walking Pad Treadmill",
+      "category": "Fitness / Home Office",
+      "signal": "Work-from-home fitness searches remain explosive through 2026",
+      "metric": "Breakout search, +explosive growth",
+      "momentum": 76
+    },
+    {
+      "name": "Hydrogen Water Bottle",
+      "category": "Wellness / Hydration",
+      "signal": "Science-backed hydration searches rising steadily into 2026",
+      "metric": "Sustained upward climb 2025\u20132026",
+      "momentum": 69
     },
     {
       "name": "Blue Light Therapy Device",
-      "category": "Beauty / Skincare",
-      "signal": "Acne skincare tech rising, under-saturated vs red light",
-      "metric": "~150K searches/month, growing",
-      "momentum": 71
-    },
-    {
-      "name": "Sleep Bonnet",
-      "category": "Beauty / Hair Care",
-      "signal": "Niche to mainstream shift, bedtime beauty routine searches up",
-      "metric": "Top 10 Google Trends rising products",
-      "momentum": 65
-    },
-    {
-      "name": "Toe Spacers",
-      "category": "Health / Foot Wellness",
-      "signal": "Foot health self-care search climbing, TikTok content viral",
-      "metric": "2.5B+ TikTok views on topic",
-      "momentum": 62
+      "category": "Beauty / Skincare Tech",
+      "signal": "~150K searches/mo, growing at red light therapy's early rate",
+      "metric": "~150K searches/mo, rapid rise",
+      "momentum": 73
     }
   ],
   "tiktok": [
     {
       "name": "Kojic Acid Serum",
       "category": "Beauty / Skincare",
-      "signal": "Medicube 180K+ sold, hyperpigmentation content exploding",
-      "metric": "1,600% view growth, 180K+ sold",
+      "signal": "Medicube & K-beauty creators driving 1,600% view growth this year",
+      "metric": "1,600% view growth, 7.4M sold",
       "momentum": 90
     },
     {
-      "name": "Portable Neck Fan",
-      "category": "Gadgets / Personal Cooling",
-      "signal": "Heatwave viral content wave, #SummerMustHave tagging active",
-      "metric": "#1 TikTok Shop summer gadget",
-      "momentum": 92
+      "name": "Homeika Cordless Vacuum",
+      "category": "Home / Cleaning",
+      "signal": "Satisfying before/after cleaning clips, $25M+ GMV on TikTok Shop",
+      "metric": "$25M+ GMV",
+      "momentum": 83
     },
     {
       "name": "MaryRuth Liquid Multivitamin",
-      "category": "Health & Wellness / Supplements",
-      "signal": "Creator daily-routine integrations, wellness sub-trends billions views",
-      "metric": "$29M+ GMV",
-      "momentum": 82
-    },
-    {
-      "name": "Lip Liner Stay-N-Peel",
-      "category": "Beauty / Makeup",
-      "signal": "Peel-off lip product demo videos driving massive conversions",
-      "metric": "$46M+ GMV",
-      "momentum": 85
-    },
-    {
-      "name": "Homeika Cordless Vacuum",
-      "category": "Home / Appliances",
-      "signal": "Satisfying cleaning demos, home transformation content viral",
-      "metric": "$25M+ GMV",
+      "category": "Health / Supplements",
+      "signal": "Everyday routine creator content, $29M+ revenue and climbing",
+      "metric": "$29.9M+ GMV",
       "momentum": 78
     },
     {
-      "name": "NOBS Toothpaste Tablets",
-      "category": "Beauty / Oral Care",
-      "signal": "No-tube routine shift viral, format novelty drives conversions",
-      "metric": "$21.7M+ revenue",
+      "name": "LED Face Mask",
+      "category": "Beauty / Skincare Tech",
+      "signal": "Viral GRWM clips, futuristic glow hook drives massive repeat sales",
+      "metric": "~1M five-star reviews",
+      "momentum": 77
+    },
+    {
+      "name": "Floating Pool Umbrella",
+      "category": "Outdoor / Summer",
+      "signal": "Summer pool content surge, $97K 7-day GMV on TikTok Shop",
+      "metric": "$97K 7-day TikTok GMV",
+      "momentum": 82
+    },
+    {
+      "name": "Sauna Blanket",
+      "category": "Wellness / Home Spa",
+      "signal": "Before/after heat therapy demos converting strongly on TikTok Shop",
+      "metric": "Top wellness TikTok category",
       "momentum": 75
     },
     {
-      "name": "Glow Recipe Watermelon Dew Drops",
-      "category": "Beauty / Skincare",
-      "signal": "Fastest-climbing serum 18-24 demo Q2 2026, TikTok Shop top",
-      "metric": "Top Q2 2026 TikTok Shop serum",
-      "momentum": 80
+      "name": "Portable Neck Fan",
+      "category": "Gadgets / Summer",
+      "signal": "Demo-friendly wearable cooling, exploding July 2026 summer content",
+      "metric": "Top summer product signal",
+      "momentum": 88
     },
     {
-      "name": "Laneige Lip Sleeping Mask",
-      "category": "Beauty / Lip Care",
-      "signal": "Restocked after 3-week sellout, sustained weekly TikTok sales",
-      "metric": "Sold out June 2026, restocked July",
-      "momentum": 77
+      "name": "NOBS Toothpaste Tablets",
+      "category": "Personal Care / Oral",
+      "signal": "No-tube format shocks viewers, $21.7M TikTok Shop revenue",
+      "metric": "$21.7M+ GMV",
+      "momentum": 72
     }
   ],
   "aligned": [
-    {
-      "name": "Portable Neck Fan",
-      "sources": [
-        "amazon",
-        "google_trends",
-        "tiktok"
-      ],
-      "why": "Summer heatwave demand confirmed on all three platforms simultaneously",
-      "metric": "60K+ bought/month Amazon"
-    },
     {
       "name": "Kojic Acid Serum",
       "sources": [
@@ -191,26 +181,28 @@
         "google_trends",
         "tiktok"
       ],
-      "why": "K-beauty brightening hero ingredient trending across every discovery channel",
-      "metric": "1,600% TikTok view growth"
+      "why": "1,600% view growth, 7.4M TikTok sold, K-beauty search surge",
+      "metric": "1,600% view growth, 7.4M sold"
     },
     {
-      "name": "Mouth Tape Sleep Strips",
+      "name": "Portable Neck Fan",
       "sources": [
         "amazon",
-        "google_trends"
+        "google_trends",
+        "tiktok"
       ],
-      "why": "Fastest-growing sleep wellness search with strong Amazon demand signal",
-      "metric": "Breakout Google Trends status"
+      "why": "Real-time heatwave demand spikes across all three platforms July 2026",
+      "metric": "10K+ bought/mo, peak summer search"
     },
     {
-      "name": "Hair Repair Mask",
+      "name": "Sauna Blanket",
       "sources": [
         "amazon",
-        "google_trends"
+        "google_trends",
+        "tiktok"
       ],
-      "why": "Bond-repair trend confirmed in search data and Amazon beauty climbers",
-      "metric": "~73K searches/month, rising"
+      "why": "Sustained multi-platform climb since late 2024 through July 2026",
+      "metric": "Top 5 BSR, sustained high search"
     },
     {
       "name": "Homeika Cordless Vacuum",
@@ -218,21 +210,30 @@
         "amazon",
         "tiktok"
       ],
-      "why": "Viral TikTok cleaning demos converting directly into Amazon-level volume",
-      "metric": "$25M+ GMV"
+      "why": "$25M+ TikTok GMV; 20K+ Amazon monthly units, problem-solver demos",
+      "metric": "$25M+ GMV, 20K+ monthly sales"
     },
     {
-      "name": "Sauna Blanket",
+      "name": "LED Face Mask",
       "sources": [
         "amazon",
-        "google_trends"
+        "tiktok"
       ],
-      "why": "Home wellness search momentum aligns with Amazon new-release surge",
-      "metric": "~80K searches/month"
+      "why": "Nearly 1M reviews on Amazon, futuristic TikTok GRWM viral hook",
+      "metric": "~1M five-star reviews"
+    },
+    {
+      "name": "Floating Pool Umbrella",
+      "sources": [
+        "amazon",
+        "tiktok"
+      ],
+      "why": "$97K 7-day TikTok GMV + Amazon 1K+ monthly buys, July peak",
+      "metric": "$97K 7-day GMV, 1K+ Amazon buys"
     }
   ],
-  "summary": "This week's clearest multi-platform winners are the Portable Neck Fan and Kojic Acid Serum, both confirmed across Amazon, Google Trends, AND TikTok simultaneously \u2014 the Neck Fan is riding a real-time summer heatwave demand spike with 60K+ units bought on Amazon last month and viral #SummerMustHave content flooding TikTok, while Kojic Acid Serum is being propelled by 1,600% TikTok view growth and K-beauty creator content that is converting directly to Amazon BSR climbs. Supporting cross-platform winners \u2014 Homeika Cordless Vacuum ($25M+ TikTok GMV meeting Amazon demand), Hair Repair Mask (search + shelf momentum), and Sauna Blanket (~80K monthly searches intersecting Amazon new releases) \u2014 round out a week where summer cooling, brightening skincare, and home wellness are the three dominant demand vectors a dropshipper should be sourcing into right now.",
-  "updated": "2026-07-13T18:06:46.996271+00:00",
-  "updated_display": "July 13, 2026",
-  "week_range": "July 06, 2026 \u2013 July 13, 2026"
+  "summary": "This week's strongest cross-platform opportunity is Kojic Acid Serum, which has achieved 1,600% view growth on TikTok, 7.4M units sold on TikTok Shop, and surging Google search volume for K-beauty hyperpigmentation solutions \u2014 making it the clearest triple-platform winner of the week. Portable Neck Fans and Sauna Blankets are the other two triple-platform aligned products, with neck fans exploding in real-time alongside July heatwaves and sauna blankets sustaining a multi-year Google + TikTok + Amazon climb that shows no sign of slowing. Dropshippers should prioritize all three of these aligned items immediately, with Kojic Acid Serum and Portable Neck Fans offering the highest urgency given their explosive, time-sensitive demand signals this week.",
+  "updated": "2026-07-20T16:17:05.032333+00:00",
+  "updated_display": "July 20, 2026",
+  "week_range": "July 13, 2026 \u2013 July 20, 2026"
 }
