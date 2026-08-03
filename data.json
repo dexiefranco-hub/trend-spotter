@@ -1,242 +1,231 @@
 {
   "amazon": [
     {
-      "name": "Portable Bladeless Neck Fan",
+      "name": "Portable Neck Fan",
       "category": "Personal Cooling / Gadgets",
-      "signal": "Summer heatwave demand driving 60K monthly units",
-      "metric": "60K units/mo, +5% MoM",
+      "signal": "Summer heat surge drives 100% MoM sales growth",
+      "metric": "30K+ monthly sales, 100% MoM growth",
+      "momentum": 92
+    },
+    {
+      "name": "Handheld Turbo Ice Fan",
+      "category": "Personal Cooling / Gadgets",
+      "signal": "199-speed pocket fans topping bestseller charts July",
+      "metric": "40K monthly sales, top-ranked",
       "momentum": 88
     },
     {
-      "name": "Walking Pad Under-Desk Treadmill",
-      "category": "Home Fitness",
-      "signal": "WFH fitness demand sustaining top search rankings",
-      "metric": "89 normalized search peak 2025",
-      "momentum": 79
+      "name": "Portable Evaporative Air Cooler",
+      "category": "Home / Cooling Appliances",
+      "signal": "Windowless AC alternative surging in summer 2026",
+      "metric": "New releases top-ranked July 2026",
+      "momentum": 80
+    },
+    {
+      "name": "Kojic Acid Serum",
+      "category": "Beauty / Skincare",
+      "signal": "K-beauty dark spot serum climbing bestseller lists",
+      "metric": "10K+ bought past month",
+      "momentum": 83
     },
     {
       "name": "Snail Mucin Serum",
       "category": "Beauty / Skincare",
-      "signal": "K-beauty ingredient driving record search and sales",
-      "metric": "Record search volume 2026",
-      "momentum": 82
-    },
-    {
-      "name": "Toplux Magnesium Supplement",
-      "category": "Health / Wellness",
-      "signal": "Sleep and stress supplement climbing Amazon rankings",
-      "metric": "$14.23M GMV Q2 2026",
-      "momentum": 85
+      "signal": "Korean skincare hero ingredient dominating beauty charts",
+      "metric": "Top-100 Beauty BSR, sustained climb",
+      "momentum": 79
     },
     {
       "name": "Homeika Cordless Vacuum",
       "category": "Home / Cleaning",
-      "signal": "Viral cleaning demo content driving top-10 home rank",
-      "metric": "$25M+ GMV",
+      "signal": "Lightweight stick vacuum climbing Amazon home charts",
+      "metric": "$25M+ GMV cross-platform",
+      "momentum": 82
+    },
+    {
+      "name": "Magnesium Gummies",
+      "category": "Health / Supplements",
+      "signal": "Sleep and stress supplement searches hitting record highs",
+      "metric": "Top-50 Health BSR, rising fast",
       "momentum": 75
     },
     {
-      "name": "Hard Water Shower Filter",
-      "category": "Home / Beauty",
-      "signal": "Hair wellness trend lifting filter searches and sales",
-      "metric": "Consistent rising trend 2026",
+      "name": "LED Aesthetic Room Lighting",
+      "category": "Home / D\u00e9cor",
+      "signal": "Dorm and room glow-up content fuels repeat purchases",
+      "metric": "$25M+ GMV signal, top home seller",
       "momentum": 72
-    },
-    {
-      "name": "LED Galaxy Projector",
-      "category": "Home D\u00e9cor / Gadgets",
-      "signal": "Bedroom glow-up content driving rapid unit velocity",
-      "metric": "10K orders in 2 weeks",
-      "momentum": 70
-    },
-    {
-      "name": "Collagen Peptides Supplement",
-      "category": "Health / Beauty",
-      "signal": "Beauty-from-within trend fueling Amazon supplement charts",
-      "metric": "$31.2M sales YTD",
-      "momentum": 80
     }
   ],
   "google_trends": [
     {
       "name": "Portable Neck Fan",
-      "category": "Personal Cooling / Gadgets",
-      "signal": "Search index hit 74 in May 2026, earlier than prior years",
-      "metric": "74 index May 2026, +15-20% YoY",
+      "category": "Personal Cooling",
+      "signal": "Searches spiking with US summer heat wave July 2026",
+      "metric": "Peak search interest, +100% seasonal surge",
+      "momentum": 94
+    },
+    {
+      "name": "Kojic Acid Serum",
+      "category": "Beauty / Skincare",
+      "signal": "1,600% TikTok view growth driving Google search spike",
+      "metric": "1,600% view growth noted, rising fast",
       "momentum": 87
     },
     {
-      "name": "Walking Pad Treadmill",
-      "category": "Home Fitness",
-      "signal": "WFH fitness searches sustained through summer 2026",
-      "metric": "89 peak normalized, +15% YoY",
-      "momentum": 78
+      "name": "Sauna Blanket",
+      "category": "Wellness / Fitness",
+      "signal": "Consistent upward curve into mid-2026",
+      "metric": "Steady climb, top wellness search 2026",
+      "momentum": 73
     },
     {
-      "name": "Snail Mucin Serum",
-      "category": "Beauty / Skincare",
-      "signal": "K-beauty breakout hitting record Shopify merchant searches",
-      "metric": "Record search volume 2026",
-      "momentum": 81
-    },
-    {
-      "name": "Magnesium Supplement",
+      "name": "Mouth Tape Sleep Strip",
       "category": "Health / Wellness",
-      "signal": "Sleep and stress keyword rising on Google and Shopify data",
-      "metric": "Top searched supplement 2026",
-      "momentum": 83
-    },
-    {
-      "name": "Hard Water Shower Filter",
-      "category": "Home / Hair Care",
-      "signal": "Hair health prevention searches growing in major US cities",
-      "metric": "Consistent breakout trend 2026",
-      "momentum": 74
-    },
-    {
-      "name": "Collagen Drinks",
-      "category": "Health / Beauty",
-      "signal": "Ingestible beauty searches up sharply year-over-year",
-      "metric": "+1,000% YoY search growth",
-      "momentum": 79
-    },
-    {
-      "name": "Wearable Cooling Device",
-      "category": "Personal Cooling / Gadgets",
-      "signal": "Thermoelectric neck devices outselling USB fans 3.2x",
-      "metric": "3.2x sales vs USB fans Q2 2026",
+      "signal": "One of fastest-growing sleep product searches",
+      "metric": "Fastest-growing sleep category 2026",
       "momentum": 76
     },
     {
-      "name": "Pet Cooling Mat",
-      "category": "Pets",
-      "signal": "Pet cooling searches rising with summer temperatures",
-      "metric": "Strongest search growth summer 2026",
-      "momentum": 68
+      "name": "Hair Repair Mask",
+      "category": "Beauty / Hair Care",
+      "signal": "Steady search uptrend, ~73K searches per month",
+      "metric": "~73K searches/mo, sustained uptrend",
+      "momentum": 70
+    },
+    {
+      "name": "Snail Mucin Skincare",
+      "category": "Beauty / Skincare",
+      "signal": "Snail slime searches surging as K-beauty demand grows",
+      "metric": "Surge searches, rising 2026",
+      "momentum": 78
+    },
+    {
+      "name": "Portable Power Bank",
+      "category": "Electronics / Accessories",
+      "signal": "High-growth category peaking 8,321 avg sales January 2026",
+      "metric": "8,321 avg monthly sales, strong uptrend",
+      "momentum": 71
+    },
+    {
+      "name": "Fibermaxxing Supplements",
+      "category": "Health / Wellness",
+      "signal": "Dietary fiber searches hit all-time high, +115% in 90 days",
+      "metric": "+115% search growth past 90 days",
+      "momentum": 74
     }
   ],
   "tiktok": [
     {
-      "name": "Medicube PDRN Collagen Balm",
-      "category": "Beauty / K-Skincare",
-      "signal": "Q2 2026 TikTok Shop #1 product by revenue",
-      "metric": "$16.99M GMV Q2 2026",
+      "name": "Wonderskin Lip Stain",
+      "category": "Beauty / Makeup",
+      "signal": "Selling 1 unit every 5 seconds on TikTok Shop",
+      "metric": "$46M+ GMV, 1 unit/5 seconds",
       "momentum": 95
-    },
-    {
-      "name": "Toplux Magnesium Supplement",
-      "category": "Health / Wellness",
-      "signal": "Highest unit-volume product on TikTok Shop US",
-      "metric": "$14.23M GMV Q2, 1M+ units peak",
-      "momentum": 92
-    },
-    {
-      "name": "Walking Pad Treadmill",
-      "category": "Home Fitness",
-      "signal": "Active TikTok Shop Summer Sale with heavy creator content",
-      "metric": "Active TikTok Shop Summer Sale",
-      "momentum": 80
-    },
-    {
-      "name": "Portable Neck Fan",
-      "category": "Personal Cooling / Gadgets",
-      "signal": "Summer heatwave creator demos generating strong conversions",
-      "metric": "30K units Prime Day 2025",
-      "momentum": 84
-    },
-    {
-      "name": "Snail Mucin Serum",
-      "category": "Beauty / K-Skincare",
-      "signal": "K-beauty routine videos sustaining strong weekly sales",
-      "metric": "Record search + weekly sales 2026",
-      "momentum": 80
     },
     {
       "name": "Homeika Cordless Vacuum",
       "category": "Home / Cleaning",
-      "signal": "Before-and-after cleaning demo clips driving conversions",
-      "metric": "$25M+ GMV",
+      "signal": "CleanTok darling with 684K+ units sold on platform",
+      "metric": "$25M+ GMV, 684K+ sold",
+      "momentum": 89
+    },
+    {
+      "name": "Kojic Acid Serum",
+      "category": "Beauty / Skincare",
+      "signal": "1,600% view growth, Medicube and Topicals dominating",
+      "metric": "1,600% view growth",
+      "momentum": 88
+    },
+    {
+      "name": "Portable Neck Fan",
+      "category": "Personal Cooling",
+      "signal": "Viral summer must-have, 30K+ TikTok Shop units sold",
+      "metric": "30.4K sold on TikTok Shop",
+      "momentum": 91
+    },
+    {
+      "name": "Snail Mucin Sheet Mask",
+      "category": "Beauty / Skincare",
+      "signal": "COSRX GRWM demos dominating beauty FYP July 2026",
+      "metric": "Top beauty GMV contributor 2026",
+      "momentum": 80
+    },
+    {
+      "name": "LED Galaxy Projector",
+      "category": "Home / D\u00e9cor",
+      "signal": "Q1 2026 breakout, $15 price point drives impulse buys",
+      "metric": "Breakout Q1 2026 TikTok Shop hit",
       "momentum": 74
     },
     {
-      "name": "Collagen Peptides Powder",
-      "category": "Health / Beauty",
-      "signal": "Livestream selling and creator routines driving repeat buys",
-      "metric": "$31.2M sales YTD",
-      "momentum": 78
+      "name": "Medicube Skincare Set",
+      "category": "Beauty / Skincare",
+      "signal": "Top TikTok Shop Q1-Q2 2026 affiliate seller",
+      "metric": "Top-5 TikTok Shop affiliate item 2026",
+      "momentum": 82
     },
     {
-      "name": "Hard Water Shower Filter",
-      "category": "Home / Hair Care",
-      "signal": "Hair transformation before-and-after clips going viral",
-      "metric": "US wellness board top slot July 2026",
-      "momentum": 72
+      "name": "Magnesium Supplement",
+      "category": "Health / Wellness",
+      "signal": "Liquid supplement gaining strong traction in health niche",
+      "metric": "Top TikTok Shop health seller Q2 2026",
+      "momentum": 76
     }
   ],
   "aligned": [
     {
-      "name": "Portable Bladeless Neck Fan",
+      "name": "Portable Neck Fan",
       "sources": [
         "amazon",
         "google_trends",
         "tiktok"
       ],
-      "why": "Summer heatwave demand surging across all three platforms simultaneously",
-      "metric": "60K units/mo; 74 search index May 2026"
+      "why": "All-3-platform summer heat winner; viral demos, search spike, strong sales",
+      "metric": "30.4K TikTok sold, 100% MoM Amazon growth"
     },
     {
-      "name": "Toplux Magnesium Supplement",
+      "name": "Kojic Acid Serum",
       "sources": [
         "amazon",
         "google_trends",
         "tiktok"
       ],
-      "why": "Sleep/stress supplement dominating TikTok and climbing Amazon charts",
-      "metric": "$14.23M GMV Q2 2026, 1M+ units"
+      "why": "K-beauty brightening serum exploding across search, sales, and video",
+      "metric": "1,600% view growth, 10K+ Amazon/month"
     },
     {
-      "name": "Walking Pad Treadmill",
+      "name": "Snail Mucin Skincare",
       "sources": [
         "amazon",
         "google_trends",
         "tiktok"
       ],
-      "why": "WFH fitness trend sustaining search, TikTok Shop, and Amazon sales",
-      "metric": "89 normalized Google peak; TikTok Summer Sale active"
+      "why": "Korean skincare ingredient surging on every major demand signal",
+      "metric": "Top-100 BSR, surging Google + TikTok"
     },
     {
-      "name": "Snail Mucin Serum",
+      "name": "Homeika Cordless Vacuum",
       "sources": [
         "amazon",
-        "google_trends",
         "tiktok"
       ],
-      "why": "K-beauty breakout ingredient hitting record search and sales volume",
-      "metric": "Record 2026 search volume; top weekly TikTok sales"
+      "why": "CleanTok-viral vacuum with massive GMV and Amazon chart climbing",
+      "metric": "$25M+ GMV, 684K+ TikTok Shop sold"
     },
     {
-      "name": "Collagen Supplement",
+      "name": "Magnesium Gummies",
       "sources": [
         "amazon",
         "google_trends",
         "tiktok"
       ],
-      "why": "Beauty-from-within trend driving +1,000% search and $31M+ sales",
-      "metric": "+1,000% YoY searches; $31.2M YTD sales"
-    },
-    {
-      "name": "Hard Water Shower Filter",
-      "sources": [
-        "amazon",
-        "google_trends",
-        "tiktok"
-      ],
-      "why": "Hair health prevention trend converting strongly across all channels",
-      "metric": "US wellness board top slot July 2026"
+      "why": "Sleep/wellness supplement surging searches, TikTok traction, Amazon rank",
+      "metric": "Record Google searches, top Amazon BSR"
     }
   ],
-  "summary": "This week's strongest cross-platform opportunities are led by portable neck fans (peaking on Amazon, Google, and TikTok simultaneously amid summer heat), magnesium and collagen supplements (combining $45M+ in TikTok GMV with record Google search growth), and walking pad treadmills (sustained WFH fitness demand spanning all three channels). Snail mucin serum and hard water shower filters round out a six-product cross-platform roster where beauty, wellness, and personal comfort are clearly the dominant demand themes of late July 2026.",
-  "updated": "2026-07-27T17:20:42.264252+00:00",
-  "updated_display": "July 27, 2026",
-  "week_range": "July 20, 2026 \u2013 July 27, 2026"
+  "summary": "The week of July 27\u2013August 3, 2026 is dominated by summer-heat and K-beauty convergence: Portable Neck Fans are the single strongest cross-platform signal with 100% month-over-month Amazon growth, 30K+ TikTok Shop units sold, and peak Google search interest driven by US heat waves. Kojic Acid Serum and Snail Mucin Skincare are locked into all three platforms simultaneously \u2014 Google searches surging, 1,600%+ TikTok view growth, and 10K+ Amazon monthly buys \u2014 making K-beauty brightening the highest-confidence dropshipping niche this week. Homeika Cordless Vacuum rounds out the winners as the standout home gadget with $25M+ GMV on TikTok Shop and strong Amazon climbing, signaling durable demand beyond seasonal spikes.",
+  "updated": "2026-08-03T17:29:03.442085+00:00",
+  "updated_display": "August 03, 2026",
+  "week_range": "July 27, 2026 \u2013 August 03, 2026"
 }
